@@ -8,7 +8,9 @@ Requirements:
 node(12.13.0 or later)
 yarn(version 1)
 editor: Visual Studio Code(recommended)
-Tech We Have Used
+
+
+Tech We Have Used:
 Tech specification for this template is given below
 React
 NextJs
@@ -19,8 +21,7 @@ Tailwind CSS
 
 
 Getting Started & Installation:
-For getting started with the template you have to follow the below procedure. First navigate to the
-chawkbazar directory.
+For getting started with the template you have to follow the below procedure.
 
 Step 1 : Configure your env file
 Within the project directory you'll find a .env.local.template file just rename it as .env.local.
