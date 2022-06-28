@@ -1,9 +1,5 @@
 # D2D_Wholesale
 
-Introduction:
-       This E-commerce project built with React, NextJS, TypeScript, React-Query and Tailwind CSSand we used react-query for data fetching .
-
-
 Requirements:
        node(12.13.0 or later)
        yarn(version 1)
