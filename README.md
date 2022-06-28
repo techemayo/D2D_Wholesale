@@ -1,19 +1,19 @@
 # D2D_Wholesale
 
 Requirements:
-       node(12.13.0 or later)
-       yarn(version 1)
-       editor: Visual Studio Code(recommended)
+       node(12.13.0 or later),
+       yarn(version 1),
+       editor: Visual Studio Code(recommended).
 
 
 Tech We Have Used:
-       Tech specification for this project is given below
-       React
-       NextJs
-       TypeScript
-       React Query
-       Axios
-       Tailwind CSS
+       Tech specification for this project is given below,
+       React,
+       NextJs,
+       TypeScript,
+       React Query,
+       Axios,
+       Tailwind CSS.
 
 
 Getting Started & Installation:
