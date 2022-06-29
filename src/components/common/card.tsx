@@ -43,7 +43,7 @@ const Card: React.FC<Props> = ({
 						width={imageSize}
 						height={imageSize}
 						quality={100}
-						className={`object-cover bg-gray-300 ${
+						className={`object-cover bg-gray-650 ${
 							variant === "rounded" ? "rounded-md" : "rounded-full"
 						}`}
 					/>
@@ -61,9 +61,9 @@ const Card: React.FC<Props> = ({
 					</>
 				)}
 			</div>
-			<Text variant="heading" className="capitalize">
+			{/* <Text variant="heading" className="capitalize">
 				{name}
-			</Text>
+			</Text> */}
 		</Link>
 	);
 };

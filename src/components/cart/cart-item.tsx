@@ -33,7 +33,7 @@ const CartItem: React.FC<CartItemProps> = ({ item }) => {
 			animate="to"
 			exit="from"
 			variants={fadeInOut(0.25)}
-			className={`group w-full h-auto flex justify-start items-center bg-white py-4 md:py-7 border-b border-gray-100 relative last:border-b-0`}
+			className={`group w-full h-auto flex justify-start items-center bg-gray-750 py-4 md:py-7 border-b border-gray-600 relative last:border-b-0`}
 			title={item?.name}
 		>
 			<div className="relative flex w-24 md:w-28 h-24 md:h-28 rounded-md overflow-hidden bg-gray-200 flex-shrink-0 cursor-pointer me-4">

@@ -6,8 +6,8 @@
 			"slug": "shovia",
 			"image": {
 				"id": 1,
-				"thumbnail": "/assets/images/brands/shovia.png",
-				"original": "/assets/images/brands/shovia.png"
+				"thumbnail": "/assets/images/brands/brand-1.png",
+				"original": "/assets/images/brands/brand-1.png"
 			}
 		},
 		{
@@ -16,8 +16,8 @@
 			"slug": "fusion",
 			"image": {
 				"id": 1,
-				"thumbnail": "/assets/images/brands/fusion.png",
-				"original": "/assets/images/brands/fusion.png"
+				"thumbnail": "/assets/images/brands/brand-2.png",
+				"original": "/assets/images/brands/brand-2.png"
 			}
 		},
 		{
@@ -26,8 +26,8 @@
 			"slug": "hunter-shoes",
 			"image": {
 				"id": 1,
-				"thumbnail": "/assets/images/brands/hunter-shoes.png",
-				"original": "/assets/images/brands/hunter-shoes.png"
+				"thumbnail": "/assets/images/brands/brand-3.png",
+				"original": "/assets/images/brands/brand-3.png"
 			}
 		},
 		{
@@ -36,8 +36,8 @@
 			"slug": "club-shoes",
 			"image": {
 				"id": 1,
-				"thumbnail": "/assets/images/brands/club-shoes.png",
-				"original": "/assets/images/brands/club-shoes.png"
+				"thumbnail": "/assets/images/brands/brand-4.png",
+				"original": "/assets/images/brands/brand-4.png"
 			}
 		},
 		{
@@ -46,8 +46,8 @@
 			"slug": "hoppister",
 			"image": {
 				"id": 1,
-				"thumbnail": "/assets/images/brands/hoppister.png",
-				"original": "/assets/images/brands/hoppister.png"
+				"thumbnail": "/assets/images/brands/brand-5.png",
+				"original": "/assets/images/brands/brand-5.png"
 			}
 		},
 		{
@@ -56,8 +56,8 @@
 			"slug": "blaze-fashion",
 			"image": {
 				"id": 1,
-				"thumbnail": "/assets/images/brands/blaze-fashion.png",
-				"original": "/assets/images/brands/blaze-fashion.png"
+				"thumbnail": "/assets/images/brands/brand-6.png",
+				"original": "/assets/images/brands/brand-6.png"
 			}
 		},
 		{
@@ -66,8 +66,8 @@
 			"slug": "elegance",
 			"image": {
 				"id": 1,
-				"thumbnail": "/assets/images/brands/elegance.png",
-				"original": "/assets/images/brands/elegance.png"
+				"thumbnail": "/assets/images/brands/brand-7.png",
+				"original": "/assets/images/brands/brand-7.png"
 			}
 		},
 		{
@@ -76,8 +76,8 @@
 			"slug": "fashadil",
 			"image": {
 				"id": 1,
-				"thumbnail": "/assets/images/brands/fashadil.png",
-				"original": "/assets/images/brands/fashadil.png"
+				"thumbnail": "/assets/images/brands/brand-8.png",
+				"original": "/assets/images/brands/brand-8.png"
 			}
 		}
 	],
@@ -253,13 +253,13 @@
 			"slug": "blaze-fashion",
 			"image": {
 				"id": 1,
-				"thumbnail": "/assets/images/brands/grid/blaze-fashion.png",
-				"original": "/assets/images/brands/grid/blaze-fashion.png"
+				"thumbnail": "/assets/images/brands/grid/brand-1.png",
+				"original": "/assets/images/brands/grid/brand-1.png"
 			},
 			"background_image": {
 				"id": 1,
-				"thumbnail": "/assets/images/brands/grid/blaze-fashion-bg.jpg",
-				"original": "/assets/images/brands/grid/blaze-fashion-bg.jpg"
+				"thumbnail": "/assets/images/brands/grid/brand-1.png",
+				"original": "/assets/images/brands/grid/brand-1.png"
 			}
 		},
 		{

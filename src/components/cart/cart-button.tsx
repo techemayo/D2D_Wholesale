@@ -16,7 +16,7 @@ const CartButton = () => {
 			aria-label="cart-button"
 		>
 			<CartIcon />
-			<span className="cart-counter-badge flex items-center justify-center bg-heading text-white absolute -top-2.5 xl:-top-3 -end-2.5 xl:-end-3 rounded-full font-bold">
+			<span className="cart-counter-badge flex items-center justify-center bg-gradient-to-r from-orange-500  to-pink-500 text-white absolute -top-2.5 xl:-top-3 -end-2.5 xl:-end-3 rounded-full font-bold">
 				{totalItems}
 			</span>
 		</button>

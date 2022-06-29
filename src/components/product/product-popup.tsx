@@ -75,9 +75,9 @@ export default function ProductPopup() {
 	}
 
 	return (
-		<div className="rounded-lg bg-white">
+		<div className="rounded-lg bg-gray-800">
 			<div className="flex flex-col lg:flex-row w-full md:w-[650px] lg:w-[960px] mx-auto overflow-hidden">
-				<div className="flex-shrink-0 flex items-center justify-center w-full lg:w-430px max-h-430px lg:max-h-full overflow-hidden bg-gray-300">
+				<div className="flex-shrink-0 flex items-center justify-center w-full lg:w-430px max-h-430px lg:max-h-full overflow-hidden bg-gray-650">
 					<img
 						src={
 							image?.original ??
@@ -95,11 +95,11 @@ export default function ProductPopup() {
 							onClick={navigateToProductPage}
 							role="button"
 						>
-							<h2 className="text-heading text-lg md:text-xl lg:text-2xl font-semibold hover:text-black">
+							<h2 className="text-heading text-lg md:text-xl lg:text-2xl font-semibold hover:text-gray-500">
 								{name}
 							</h2>
 						</div>
-						<p className="text-sm leading-6 md:text-body md:leading-7">
+						<p className="text-sm leading-6 md:text-white md:leading-7">
 							{description}
 						</p>
 
@@ -141,7 +141,7 @@ export default function ProductPopup() {
 								onClick={addToCart}
 								variant="flat"
 								className={`w-full h-11 md:h-12 px-1.5 ${
-									!isSelected && "bg-gray-400 hover:bg-gray-400"
+									!isSelected && "bg-gray-690 hover:bg-gray-600"
 								}`}
 								disabled={!isSelected}
 								loading={addToCartLoader}
@@ -153,7 +153,7 @@ export default function ProductPopup() {
 						{viewCartBtn && (
 							<button
 								onClick={navigateToCartPage}
-								className="w-full mb-4 h-11 md:h-12 rounded bg-gray-100 text-heading focus:outline-none border border-gray-300 transition-colors hover:bg-gray-50 focus:bg-gray-50"
+								className="w-full mb-4 h-11 md:h-12 rounded text-heading focus:outline-none border  transition-colors hover:bg-gray-50 focus:bg-gray-50"
 							>
 								{t("text-view-cart")}
 							</button>
@@ -162,7 +162,7 @@ export default function ProductPopup() {
 						<Button
 							onClick={navigateToProductPage}
 							variant="flat"
-							className="w-full h-11 md:h-12"
+							className="w-full h-11 md:h-12 bg-gradient-to-r from-orange-500  to-pink-500 transition-colors hover:bg-gray-50 focus:bg-gray-50"
 						>
 							{t("text-view-details")}
 						</Button>

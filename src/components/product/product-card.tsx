@@ -43,9 +43,9 @@ const ProductCard: FC<ProductProps> = ({
 			className={cn(
 				"group box-border overflow-hidden flex rounded-md cursor-pointer",
 				{
-					"pe-0 pb-2 lg:pb-3 flex-col items-start bg-white transition duration-200 ease-in-out transform hover:-translate-y-1 hover:md:-translate-y-1.5 hover:shadow-product":
+					"pe-0 pb-2 lg:pb-3 flex-col items-start bg-gray-800 transition duration-200 ease-in-out transform hover:-translate-y-1 hover:md:-translate-y-1.5 hover:shadow-product":
 						variant === "grid",
-					"pe-0 md:pb-1 flex-col items-start bg-white": variant === "gridSlim",
+					"pe-0 md:pb-1 flex-col items-start bg-gray-800": variant === "gridSlim",
 					"items-center bg-transparent border border-gray-100 transition duration-200 ease-in-out transform hover:-translate-y-1 hover:shadow-listProduct":
 						variant === "listSmall",
 					"flex-row items-center transition-transform ease-linear bg-gray-200 pe-2 lg:pe-3 2xl:pe-4":
@@ -76,7 +76,7 @@ const ProductCard: FC<ProductProps> = ({
 					loading={imgLoading}
 					quality={100}
 					alt={product?.name || "Product Image"}
-					className={cn("bg-gray-300 object-cover rounded-s-md", {
+					className={cn("bg-gray-700 object-cover rounded-s-md", {
 						"w-full rounded-md transition duration-200 ease-in group-hover:rounded-b-none":
 							variant === "grid",
 						"rounded-md transition duration-150 ease-linear transform group-hover:scale-105":

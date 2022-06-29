@@ -21,7 +21,7 @@ const Copyright: React.FC<CopyrightProps> = ({ payment }) => {
 				<p className="text-body text-xs lg:text-sm leading-6">
 					{t("text-copyright")} &copy; {year}&nbsp;
 					<a
-						className="font-semibold text-gray-700 transition-colors duration-200 ease-in-out hover:text-body"
+						className="font-semibold text-orange-500 transition-colors duration-200 ease-in-out hover:text-body"
 						href={siteSettings.author.websiteUrl}
 					>
 						{siteSettings.author.name}

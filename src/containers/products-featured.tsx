@@ -22,7 +22,7 @@ const ProductsFeatured: React.FC<ProductsProps> = ({
 	const { data, error } = useFeaturedProductsQuery({
 		limit: limit,
 	});
-
+ 
 	return (
 		<div className={className}>
 			<SectionHeader

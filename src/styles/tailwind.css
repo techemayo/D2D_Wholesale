@@ -6,7 +6,7 @@
 @layer base {
   html {
     -webkit-tap-highlight-color: transparent;
-    @apply bg-gray-800;
+    @apply bg-gray-850;
   }
   html,
   body {
@@ -185,12 +185,14 @@
   }
 
   /* Your own custom utilities */
+  /*
   .productColor.active {
     @apply border-heading;
   }
   .productSize.active {
     @apply border-heading bg-heading text-white;
   }
+  */
   .productTags a:last-of-type > span {
     display: none;
   }
