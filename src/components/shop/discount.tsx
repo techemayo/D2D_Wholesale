@@ -11,7 +11,7 @@ const ShopDiscount: React.FC = () => {
 	const { t } = useTranslation("common");
 	return (
 		<div
-			className={`flex justify-center relative bg-borderBottom transition duration-200 ease-in ${
+			className={`flex justify-center relative bg-gray-600 transition duration-200 ease-in ${
 				status === true ? "h-0.5" : "py-4"
 			}`}
 		>

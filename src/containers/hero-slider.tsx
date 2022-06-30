@@ -3,6 +3,7 @@ import Carousel from "@components/ui/carousel/carousel";
 import { ROUTES } from "@utils/routes";
 import { SwiperSlide } from "swiper/react";
 import cn from "classnames";
+import { title } from "process";
 
 interface Props {
 	data: any;
@@ -52,11 +53,14 @@ const HeroSlider: React.FC<Props> = ({
 						key={`banner--key-${banner?.id}`}
 					>
 						<BannerCard
+						title={title}
 							banner={banner}
 							href={`${ROUTES.COLLECTIONS}/${banner.slug}`}
 							variant={variantRounded}
 						/>
-						
+						<div className="absolute text-white">
+							<span>{title}</span>
+						</div>
 					</SwiperSlide>
 				))}
 			</Carousel>

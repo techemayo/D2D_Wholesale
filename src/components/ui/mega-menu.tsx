@@ -18,11 +18,11 @@ type MegaMenuProps = {
 const MegaMenu: React.FC<MegaMenuProps> = ({ columns }) => {
 	const { t } = useTranslation("menu");
 	return (
-		<div className="megaMenu shadow-header bg-gray-200 absolute -start-20 xl:start-0 opacity-0 invisible group-hover:opacity-100 group-hover:visible">
+		<div className="megaMenu shadow-header bg-gray-650 absolute -start-20 xl:start-0 opacity-0 invisible group-hover:opacity-100 group-hover:visible">
 			<div className="grid grid-cols-5">
 				{columns?.map((column) => (
 					<ul
-						className="even:bg-gray-150 pb-7 2xl:pb-8 pt-6 2xl:pt-7"
+						className="even:bg-gray-700 pb-7 2xl:pb-8 pt-6 2xl:pt-7"
 						key={column.id}
 					>
 						{column?.columnItems?.map((columnItem) => (
@@ -30,7 +30,7 @@ const MegaMenu: React.FC<MegaMenuProps> = ({ columns }) => {
 								<li className="mb-1.5">
 									<Link
 										href={columnItem.path}
-										className="block text-sm py-1.5 text-heading font-semibold px-5 xl:px-8 2xl:px-10 hover:text-heading hover:bg-gray-300"
+										className="block text-sm py-1.5 text-heading font-semibold px-5 xl:px-8 2xl:px-10 hover:text-heading hover:bg-gray-600"
 									>
 										{t(columnItem.label)}
 									</Link>
@@ -46,7 +46,7 @@ const MegaMenu: React.FC<MegaMenuProps> = ({ columns }) => {
 									>
 										<Link
 											href={item.path}
-											className="text-body text-sm block py-1.5 px-5 xl:px-8 2xl:px-10 hover:text-heading hover:bg-gray-300"
+											className="text-body text-sm block py-1.5 px-5 xl:px-8 2xl:px-10 hover:text-heading hover:bg-gray-600"
 										>
 											{t(item.label)}
 										</Link>

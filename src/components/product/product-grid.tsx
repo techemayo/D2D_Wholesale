@@ -49,6 +49,7 @@ export const ProductGrid: FC<ProductGridProps> = ({ className = "" }) => {
 						disabled={loadingMore}
 						onClick={() => fetchNextPage()}
 						variant="slim"
+						className="bg-gradient-to-r from-orange-500  to-pink-500"
 					>
 						{t("button-load-more")}
 					</Button>

@@ -59,6 +59,7 @@ export const CategoryFilter = () => {
 						checked={formState.includes(item.slug)}
 						value={item.slug}
 						onChange={handleItemClick}
+						
 					/>
 				))}
 			</div>
