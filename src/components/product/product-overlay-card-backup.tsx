@@ -54,10 +54,10 @@ const ProductOverlayCardBackup: React.FC<ProductProps> = ({
 	return (
 		<div
 			onClick={handlePopupView}
-			className={`${classes} cursor-pointer group flex flex-col bg-gray-200 rounded-md relative items-center justify-between overflow-hidden`}
+			className={`${classes} cursor-pointer group flex flex-col  rounded-md relative items-center justify-between overflow-hidden`}
 		>
 			<div
-				className="flex justify-center items-center h-full 3xl:min-h-[330px]"
+				className="flex justify-center items-end w-full h-full 3xl:min-h-[330px]"
 				title={product?.name}
 			>
 				<Image
@@ -69,13 +69,13 @@ const ProductOverlayCardBackup: React.FC<ProductProps> = ({
 					height={size}
 					loading={imgLoading}
 					alt={product?.name || "Product Image"}
-					className="transition duration-200 ease-in-out transform group-hover:scale-110"
+					className="transition duration-500 ease-in-out transform group-hover:scale-110 rounded-md"
 				/>
 				<div
 				className="absolute flex flex-col md:flex-row  2xl:flex-row md:justify-between md:items-center lg:items-start 2xl:items-center w-full px-4 md:px-5 3xl:px-7 pb-4 md:pb-5 3xl:pb-7"
 				title={product?.name}
 			>
-				<div className="md:pe-2 lg:pe-0 2xl:pe-2 overflow-hidden ">
+				<div className="md:pe-2 lg:pe-0 2xl:pe-2 overflow-hidden">
 					<h2 className="text-white font-semibold text-sm md:text-base xl:text-lg mb-1 truncate">
 						{product?.name}
 					</h2>
@@ -84,7 +84,7 @@ const ProductOverlayCardBackup: React.FC<ProductProps> = ({
 						{product?.description}
 					</p>
 				</div>
-				<div className="flex-shrink-0 flex md:flex-col  2xl:flex-col items-center md:items-end lg:items-start 2xl:items-end justify-end md:text-end lg:text-start xl:text-end mt-2 md:-mt-0.5 lg:mt-2 2xl:-mt-0.5">
+				<div className="flex-shrink-0 text-white flex md:flex-col  2xl:flex-col items-center md:items-end lg:items-start 2xl:items-end justify-end md:text-end lg:text-start xl:text-end mt-2 md:-mt-0.5 lg:mt-2 2xl:-mt-0.5">
 					{discount && (
 						<del className="text-sm md:text-base lg:text-sm xl:text-base 3xl:text-lg">
 							{basePrice}

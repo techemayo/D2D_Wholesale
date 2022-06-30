@@ -19,24 +19,47 @@ const ProductOverlayCard: React.FC<ProductProps> = ({
 	let size = 260;
 	let classes;
 
+	// if (variant === "left" && index === 0) {
+	// 	classes = "row-span-full lg:row-span-2 col-span-full lg:col-span-2";
+	// 	size = 620;
+	// } else if (variant === "center" && index === 1) {
+	// 	classes = "row-span-full lg:row-span-2 col-span-full lg:col-span-2";
+	// 	size = 620;
+	// } else if (variant === "combined") {
+	// 	if (index === 0) {
+	// 		classes = "col-span-2 lg:row-span-2 col-span-full lg:col-span-2";
+	// 		size = 620;
+	// 	} else if (index === 2) {
+	// 		classes = `col-span-2 lg:col-start-4 lg:col-end-5 lg:row-start-1 lg:row-end-3`;
+	// 		size = 620;
+	// 	} else {
+	// 		classes = "col-span-2 lg:col-span-1";
+	// 	}
+	// } else {
+	// 	classes = "col-span-2 lg:col-span-1";
+	// }
+
+
+
+
 	if (variant === "left" && index === 0) {
-		classes = "row-span-full lg:row-span-2 col-span-full lg:col-span-2";
+		classes = "row-span-2 lg:row-span-1 col-span-full lg:col-span-1";
 		size = 620;
 	} else if (variant === "center" && index === 1) {
-		classes = "row-span-full lg:row-span-2 col-span-full lg:col-span-2";
+		classes = "row-span-1 lg:row-span-1 col-span-1 lg:col-span-1";
 		size = 620;
 	} else if (variant === "combined") {
 		if (index === 0) {
-			classes = "col-span-2 lg:row-span-2 col-span-full lg:col-span-2";
+			classes = "col-span-2 lg:row-span-1 col-span-full lg:col-span-1";
 			size = 620;
 		} else if (index === 2) {
-			classes = `col-span-2 lg:col-start-4 lg:col-end-5 lg:row-start-1 lg:row-end-3`;
+			classes = `col-span-1 lg:col-start-2 lg:col-end-3 lg:row-start-1 lg:row-end-3`;
 			size = 620;
 		} else {
-			classes = "col-span-2 lg:col-span-1";
+			classes = "col-span-1 lg:col-span-1";
 		}
 	} else {
-		classes = "col-span-2 lg:col-span-1";
+		classes = "col-span-1 lg:col-span-1";
 	}
 
 	const { openModal, setModalView, setModalData } = useUI();
@@ -57,7 +80,7 @@ const ProductOverlayCard: React.FC<ProductProps> = ({
 			className={`${classes} cursor-pointer group flex flex-col bg-gray-200 rounded-md relative items-center justify-between overflow-hidden`}
 		>
 			<div
-				className="flex justify-center items-center p-4 w-full 3xl:min-h-[330px]"
+				className="flex justify-center items-center p-4 h-full 3xl:min-h-[330px]"
 				title={product?.name}
 			>
 				<Image
@@ -69,7 +92,7 @@ const ProductOverlayCard: React.FC<ProductProps> = ({
 					height={size}
 					loading={imgLoading}
 					alt={product?.name || "Product Image"}
-					className="transition duration-200 ease-in-out transform group-hover:scale-110"
+					className="transition duration-500 ease-in-out transform group-hover:scale-110"
 				/>
 			</div>
 			{discount && (
@@ -103,7 +126,6 @@ const ProductOverlayCard: React.FC<ProductProps> = ({
 				</div>
 			</div>
 		</div>
-		
 	);
 };
 

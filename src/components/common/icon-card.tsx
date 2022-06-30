@@ -26,7 +26,7 @@ const IconCard: React.FC<Props> = ({
 			className={cn("group flex justify-center flex-col rounded-lg", {
 				"h-28 sm:h-[8.5rem] md:h-40 xl:h-[11.5rem] 2xl:h-44 3xl:h-60 bg-gray-200":
 					variant === "default",
-				"px-6 lg:px-8 pt-7 lg:pt-10 pb-5 lg:pb-8 bg-gray-600":
+				"px-6 lg:px-8 pt-7 lg:pt-10 pb-5 lg:pb-8 bg-gray-600 hover:bg-gradient-to-r from-orange-500  to-pink-500":
 					variant === "modern",
 				"items-center": variant === "circle",
 			})}
@@ -78,14 +78,14 @@ const IconCard: React.FC<Props> = ({
 				</Text>
 			)}
 
-			{effectActive === true && variant !== "circle" && (
+			{/* {effectActive === true && variant !== "circle" && (
 				<>
 					<div className="absolute top-0 left-0 bg-black w-full h-full opacity-0 transition-opacity duration-300 group-hover:opacity-30 rounded-lg" />
 					<div className="absolute top-0 left-0 h-full w-full flex items-center justify-center  rounded-lg">
 						<FaLink className="text-white text-base sm:text-xl lg:text-2xl xl:text-3xl transform opacity-0 scale-0 transition-all duration-300 ease-in-out group-hover:opacity-100 group-hover:scale-100" />
 					</div>
 				</>
-			)}
+			)} */}
 		</Link>
 	);
 };
