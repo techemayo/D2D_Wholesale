@@ -7,10 +7,13 @@ import { useUI } from "@contexts/ui.context";
 import Logo from "@components/ui/logo";
 import { ImGoogle2, ImFacebook2 } from "react-icons/im";
 import { useTranslation } from "next-i18next";
+import { useState,useEffect } from "react";
 
 const LoginForm: React.FC = () => {
 	const { t } = useTranslation();
-	const { setModalView, openModal, closeModal } = useUI();
+	const { setModalView, openModal, closeModal, setRememberMe, rememberMe } = useUI();
+	// let { srm } = () => {setRememberMe(false);}
+	
 	const { mutate: login, isLoading } = useLoginMutation();
 
 	const {
@@ -23,9 +26,9 @@ const LoginForm: React.FC = () => {
 		login({
 			email,
 			password,
-			remember_me,
+			rememberMe,
 		});
-		console.log(email, password, remember_me, "data");
+		console.log(email, password, rememberMe, "data");
 	}
 	function handelSocialLogin() {
 		login({
@@ -42,13 +45,19 @@ const LoginForm: React.FC = () => {
 		setModalView("FORGET_PASSWORD");
 		return openModal();
 	}
+	useEffect(() => {
+		// Your code here
+		setRememberMe(false);
+	  }, []);
+
 	return (
-		<div className="overflow-hidden bg-white mx-auto rounded-lg w-full sm:w-96 md:w-450px border border-gray-300 py-5 px-5 sm:px-8">
+		
+		<div className="overflow-hidden bg-gray-750 mx-auto rounded-lg w-full sm:w-96 md:w-450px  py-5 px-5 sm:px-8">
 			<div className="text-center mb-6 pt-2.5">
 				<div onClick={closeModal}>
 					<Logo />
 				</div>
-				<p className="text-sm md:text-base text-body mt-2 mb-8 sm:mb-10">
+				<p className="text-sm md:text-base text-white mt-2 mb-8 sm:mb-10">
 					{t("common:login-helper")}
 				</p>
 			</div>
@@ -85,10 +94,12 @@ const LoginForm: React.FC = () => {
 								<input
 									id="remember"
 									type="checkbox"
+									onChange={()=>{setRememberMe(!rememberMe);}}
 									className="opacity-0 w-0 h-0"
-									{...register("remember_me")}
+									
+							
 								/>
-								<span className="bg-gray-500 absolute inset-0 transition-all duration-300 ease-in slider round"></span>
+								<span className={rememberMe? 'bg-gradient-to-r from-orange-500  to-pink-500 absolute inset-0 transition-all duration-300 ease-in slider round' : 'bg-gray-500 absolute inset-0 transition-all duration-300 ease-in slider round'} ></span>
 							</label>
 							<label
 								htmlFor="remember"
@@ -112,18 +123,18 @@ const LoginForm: React.FC = () => {
 							type="submit"
 							loading={isLoading}
 							disabled={isLoading}
-							className="h-11 md:h-12 w-full mt-1.5"
+							className="h-11 md:h-12 w-full mt-1.5 bg-gradient-to-r from-orange-500  to-pink-500"
 						>
 							{t("common:text-login")}
 						</Button>
 					</div>
 				</div>
 			</form>
-			<div className="flex flex-col items-center justify-center relative text-sm text-heading mt-6 mb-3.5">
-				<hr className="w-full border-gray-300" />
-				<span className="absolute -top-2.5 px-2 bg-white">
+			<div className="flex flex-col items-center justify-center relative text-sm text-black mt-6 mb-3.5">
+				<hr className="w-full border-gray-600" />
+				{/* <span className="absolute -top-2.5 px-2 bg-white">
 					{t("common:text-or")}
-				</span>
+				</span> */}
 			</div>
 			<Button
 				loading={isLoading}

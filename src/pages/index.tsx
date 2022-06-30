@@ -52,7 +52,12 @@ export default function Home() {
 				/>
 				{/* <CategoryBlock sectionHeading="text-shop-by-category" type="rounded" /> */}
 				
-				<ProductsFeatured sectionHeading="text-featured-products" limit={5} />
+				{/* <ProductsFeatured sectionHeading="text-featured-products" limit={5} /> */}
+				<ProductsFeatured
+					limit={4}
+					variant="combined"
+					sectionHeading="text-featured-products"
+				/>
 				<ProductsFlashSaleCarousel />
 				<NewArrivalsProductFeed />
 				<BrandBlock sectionHeading="text-top-brands" />

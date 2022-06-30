@@ -224,6 +224,12 @@ function uiReducer(state: State, action: Action) {
 				userAvatar: action.value,
 			};
 		}
+		case "SET_REMEMBER_ME": {
+			return {
+				...state,
+				rememberMe: action.value,
+			};
+		}
 	}
 }
 
@@ -263,6 +269,9 @@ export const UIProvider: React.FC = (props) => {
 	const setUserAvatar = (_value: string) =>
 		dispatch({ type: "SET_USER_AVATAR", value: _value });
 
+	const setRememberMe = (_value: boolean) =>
+		dispatch({ type: "SET_REMEMBER_ME", value: _value });
+
 	const setModalView = (view: MODAL_VIEWS) =>
 		dispatch({ type: "SET_MODAL_VIEW", view });
 	const setDrawerView = (view: DRAWER_VIEWS) =>
@@ -294,6 +303,7 @@ export const UIProvider: React.FC = (props) => {
 			setModalView,
 			setDrawerView,
 			setUserAvatar,
+			setRememberMe,
 			setModalData,
 		}),
 		[state]

@@ -25,13 +25,14 @@ const SignUpForm: React.FC = () => {
 		return openModal();
 	}
 
-	function onSubmit({ name, email, password }: SignUpInputType) {
+	function onSubmit({ name, email, username, password}: SignUpInputType) {
 		signUp({
 			name,
 			email,
+			username,
 			password,
 		});
-		console.log(name, email, password, "sign form values");
+		console.log(name, email, username, password, "sign form values");
 	}
 	return (
 		<div className="py-5 px-5 sm:px-8 bg-white mx-auto rounded-lg w-full sm:w-96 md:w-450px border border-gray-300">
@@ -84,6 +85,15 @@ const SignUpForm: React.FC = () => {
 							},
 						})}
 						errorKey={errors.email?.message}
+					/>
+					<Input
+						labelKey="forms:label-username"
+						type="text"
+						variant="solid"
+						{...register("username", {
+							required: "forms:username-required",
+						})}
+						errorKey={errors.username?.message}
 					/>
 					<PasswordInput
 						labelKey="forms:label-password"

@@ -38,7 +38,7 @@ const PasswordInput = React.forwardRef<HTMLInputElement, Props>(
 				{labelKey && (
 					<label
 						htmlFor={name}
-						className="block text-gray-600 font-semibold text-sm leading-none mb-3 cursor-pointer"
+						className="block text-white font-semibold text-sm leading-none mb-3 cursor-pointer"
 					>
 						{t(labelKey)}
 					</label>
