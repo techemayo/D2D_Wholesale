@@ -110,12 +110,12 @@ const ProductCard: FC<ProductProps> = ({
 					{product?.name}
 				</h2>
 				{product?.description && (
-					<p className="text-body text-xs lg:text-sm leading-normal xl:leading-relaxed max-w-[250px] truncate">
+					<p className="text-gray-500 text-xs lg:text-sm leading-normal xl:leading-relaxed max-w-[250px] truncate">
 						{product?.description}
 					</p>
 				)}
 				<div
-					className={`text-heading font-semibold text-sm sm:text-base mt-1.5 space-s-2 ${
+					className={`text-pink-500 font-semibold text-sm sm:text-base mt-1.5 space-s-2 ${
 						variant === "grid"
 							? "lg:text-lg lg:mt-2.5"
 							: "sm:text-xl md:text-base lg:text-xl md:mt-2.5 2xl:mt-3"
@@ -123,7 +123,7 @@ const ProductCard: FC<ProductProps> = ({
 				>
 					<span className="inline-block">{price}</span>
 					{discount && (
-						<del className="sm:text-base font-normal text-gray-800">
+						<del className="sm:text-base font-normal text-gray-600">
 							{basePrice}
 						</del>
 					)}

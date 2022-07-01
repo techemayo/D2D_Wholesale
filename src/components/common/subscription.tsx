@@ -73,8 +73,8 @@ const Subscription: React.FC<Props> = ({
 						})}
 						errorKey={errors.subscription_email?.message}
 					/>
-					<Button className="lg:mr-10 mt-3 sm:mt-0 w-full sm:w-auto sm:ms-2 md:h-full flex-shrink-0">
-						<span className="lg:py-0.5 text-orange-500">{t(`${buttonText}`)}</span>
+					<Button className="lg:mr-10 mt-3 sm:mt-0 w-full sm:w-auto sm:ms-2 md:h-full flex-shrink-0 bg-white">
+						<span className="lg:py-0.5 text-white">{t(`${buttonText}`)}</span>
 					</Button>
 				</div>
 			</form>

@@ -46,7 +46,7 @@ const BottomNavigation: React.FC = () => {
 
 	return (
 		<>
-			<div className="md:hidden fixed z-10 bottom-0 flex items-center justify-between shadow-bottomNavigation text-gray-700 body-font bg-white w-full h-14 sm:h-16 px-4">
+			<div className="md:hidden fixed z-10 bottom-0 flex items-center justify-between shadow-bottomNavigation text-gray-700 body-font bg-gray-800 w-full h-14 sm:h-16 px-4">
 				<button
 					aria-label="Menu"
 					className="menuBtn flex flex-col items-center justify-center flex-shrink-0 outline-none focus:outline-none"

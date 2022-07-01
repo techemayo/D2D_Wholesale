@@ -75,10 +75,10 @@ export default function MobileMenu() {
 	}: any) =>
 		data.label && (
 			<li className={`mb-0.5 ${className}`}>
-				<div className="flex items-center justify-between relative">
+				<div className="flex items-center justify-between relative  bg-gray-800">
 					<Link
 						href={data.path}
-						className="w-full text-[15px] menu-item relative py-3 ps-5 md:ps-6 pe-4 transition duration-300 ease-in-out"
+						className="w-full text-[15px] menu-item relative  bg-gray-800 py-3 ps-5 md:ps-6 pe-4 transition duration-300 ease-in-out"
 					>
 						<span className="block w-full" onClick={closeSidebar}>
 							{t(`${data.label}`)}
@@ -86,11 +86,11 @@ export default function MobileMenu() {
 					</Link>
 					{hasSubMenu && (
 						<div
-							className="cursor-pointer w-full h-full text-lg flex items-center justify-end absolute start-0 top-0 pe-5"
+							className="cursor-pointer w-full h-full  text-lg flex items-center justify-end absolute start-0 top-0 pe-5"
 							onClick={() => handleArrowClick(menuName)}
 						>
 							<IoIosArrowDown
-								className={`transition duration-200 ease-in-out transform text-heading ${
+								className={`transition duration-200 ease-in-out transform  text-heading ${
 									activeMenus.includes(menuName) ? "-rotate-180" : "rotate-0"
 								}`}
 							/>
@@ -139,7 +139,7 @@ export default function MobileMenu() {
 	return (
 		<>
 			<div className="flex flex-col justify-between w-full h-full">
-				<div className="w-full border-b border-gray-100 flex justify-between items-center relative ps-5 md:ps-7 flex-shrink-0 py-0.5">
+				<div className="w-full border-b border-gray-100  bg-gray-800 flex justify-between items-center relative ps-5 md:ps-7 flex-shrink-0 py-0.5">
 					<Logo />
 
 					<button
@@ -147,11 +147,11 @@ export default function MobileMenu() {
 						onClick={closeSidebar}
 						aria-label="close"
 					>
-						<IoClose className="text-black mt-1 md:mt-0.5" />
+						<IoClose className="text-white mt-1 md:mt-0.5" />
 					</button>
 				</div>
 
-				<Scrollbar className="menu-scrollbar flex-grow mb-auto">
+				<Scrollbar className="menu-scrollbar flex-grow mb-auto  bg-gray-800">
 					<div className="flex flex-col py-7 px-0 lg:px-2 text-heading">
 						<ul className="mobileMenu">
 							{site_header.mobileMenu.map((menu, index) => {
@@ -173,11 +173,11 @@ export default function MobileMenu() {
 					</div>
 				</Scrollbar>
 
-				<div className="flex items-center justify-center bg-white border-t border-gray-100 px-7 flex-shrink-0 space-s-1">
+				<div className="flex items-center justify-center  bg-gray-800 bg-white border-t border-gray-100 px-7 flex-shrink-0 space-s-1">
 					{social?.map((item, index) => (
 						<a
 							href={item.link}
-							className={`text-heading p-5 opacity-60 first:-ms-4 transition duration-300 ease-in hover:opacity-100 ${item.className}`}
+							className={`text-heading p-5 opacity-60  first:-ms-4 transition duration-300 ease-in hover:opacity-100 ${item.className}`}
 							target="_blank"
 							key={index}
 						>

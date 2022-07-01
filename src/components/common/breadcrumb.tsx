@@ -10,7 +10,7 @@ interface Props {
 const BreadcrumbItem: React.FC<Props> = ({ children, ...props }) => {
 	return (
 		<li
-			className="text-sm text-body px-2.5 transition duration-200 ease-in first:ps-0 last:pe-0 hover:text-heading"
+			className="text-sm text-gray-500 px-2.5 transition duration-200 ease-in first:ps-0 last:pe-0 hover:text-heading"
 			{...props}
 		>
 			{children}

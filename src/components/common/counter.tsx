@@ -34,7 +34,7 @@ const Counter: React.FC<CounterProps> = ({
 				className={cn(
 					"flex items-center justify-center flex-shrink-0 h-full transition ease-in-out duration-300 focus:outline-none",
 					{
-						"w-10 md:w-12 text-heading border-e border-gray-300 hover:text-gray-800 hover:bg-heading":
+						"w-10 md:w-12 text-gray-800 border-e bg-white border-gray-500 hover:text-gray-800 hover:bg-gray-500":
 							variant === "default",
 						"w-8 md:w-9 text-white bg-gray-800  hover:bg-gray-700 border-e border-gray-690 focus:outline-none":
 							variant === "dark",
@@ -49,7 +49,7 @@ const Counter: React.FC<CounterProps> = ({
 				className={cn(
 					"font-semibold flex items-center justify-center h-full  transition-colors duration-250 ease-in-out cursor-default flex-shrink-0",
 					{
-						"text-base text-heading w-12  md:w-20 xl:w-24":
+						"text-base text-gray-800 bg-white w-12  md:w-20 xl:w-24":
 							variant === "default",
 						"text-sm text-white bg-gray-800 w-8 md:w-10 ": variant === "dark",
 					}
@@ -63,7 +63,7 @@ const Counter: React.FC<CounterProps> = ({
 				className={cn(
 					"flex items-center justify-center h-full flex-shrink-0 transition ease-in-out duration-300 focus:outline-none",
 					{
-						"w-10 md:w-12 text-heading border-s border-gray-300 hover:text-gray-800 hover:bg-heading":
+						"w-10 md:w-12 text-gray-800 border-s bg-white border-gray-500 hover:text-gray-800 hover:bg-gray-500":
 							variant === "default",
 						"w-8 md:w-9 text-white bg-gray-800 hover:bg-gray-700 border-s border-gray-690 focus:outline-none":
 							variant === "dark",

@@ -69,7 +69,7 @@ const ChangePassword: React.FC = () => {
 								type="submit"
 								loading={isLoading}
 								disabled={isLoading}
-								className="h-13 mt-3"
+								className="h-13 mt-3 bg-gradient-to-r from-orange-500  to-pink-500"
 							>
 								{t("common:text-change-password")}
 							</Button>

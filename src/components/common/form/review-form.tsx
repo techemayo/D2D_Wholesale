@@ -42,7 +42,7 @@ const ReviewForm: React.FC = () => {
 						onChange={ratingChanged}
 						size={20}
 						color="#c6c6c6"
-						activeColor="#202020"
+						activeColor="#FE9413"
 					/>
 				</div>
 				<TextArea
@@ -80,7 +80,7 @@ const ReviewForm: React.FC = () => {
 				<div className="pt-1">
 					<Button
 						type="submit"
-						className="h-12 md:mt-1 text-sm lg:text-base w-full sm:w-auto"
+						className="h-12 md:mt-1 text-sm lg:text-base w-full sm:w-auto bg-gradient-to-r from-orange-500  to-pink-500"
 					>
 						{t("common:button-submit")}
 					</Button>

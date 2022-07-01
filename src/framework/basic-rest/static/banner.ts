@@ -1147,7 +1147,7 @@ export const homeElegantHeroSlider = [
 		slug: "winter-collection",
 		image: {
 			mobile: {
-				url: "/assets/images/hero/banner-mobile-7.jpg",
+				url: "/assets/images/hero/banner-1.png",
 				width: 690,
 				height: 480,
 			},
@@ -1164,7 +1164,7 @@ export const homeElegantHeroSlider = [
 		slug: "winter-collection",
 		image: {
 			mobile: {
-				url: "/assets/images/hero/banner-mobile-7.jpg",
+				url: "/assets/images/hero/banner-2.png",
 				width: 690,
 				height: 480,
 			},

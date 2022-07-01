@@ -77,14 +77,14 @@ export default function ProductPopup() {
 	return (
 		<div className="rounded-lg bg-gray-800">
 			<div className="flex flex-col lg:flex-row w-full md:w-[650px] lg:w-[960px] mx-auto overflow-hidden">
-				<div className="flex-shrink-0 flex items-center justify-center w-full lg:w-430px max-h-430px lg:max-h-full overflow-hidden bg-gray-650">
+				<div className="flex-shrink-0 flex items-center justify-center w-full lg:w-430px max-h-500px  overflow-hidden bg-gray-650">
 					<img
 						src={
 							image?.original ??
 							"/assets/placeholder/products/product-thumbnail.svg"
 						}
 						alt={name}
-						className="lg:object-cover lg:w-full lg:h-full"
+						className="lg:object-cover lg:w-full lg:h-full object-cover"
 					/>
 				</div>
 

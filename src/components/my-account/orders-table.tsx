@@ -25,19 +25,19 @@ const OrdersTable: React.FC = () => {
 					<table>
 						<thead className="text-sm lg:text-base">
 							<tr>
-								<th className="bg-gray-100 p-4 text-heading font-semibold text-start first:rounded-ts-md">
+								<th className="bg-gray-700 p-4 text-heading font-semibold text-start first:rounded-ts-md">
 									{t("text-order")}
 								</th>
-								<th className="bg-gray-100 p-4 text-heading font-semibold text-start lg:text-center">
+								<th className="bg-gray-700 p-4 text-heading font-semibold text-start lg:text-center">
 									{t("text-date")}
 								</th>
-								<th className="bg-gray-100 p-4 text-heading font-semibold text-start lg:text-center">
+								<th className="bg-gray-700 p-4 text-heading font-semibold text-start lg:text-center">
 									{t("text-status")}
 								</th>
-								<th className="bg-gray-100 p-4 text-heading font-semibold text-start lg:text-center">
+								<th className="bg-gray-700 p-4 text-heading font-semibold text-start lg:text-center">
 									{t("text-total")}
 								</th>
-								<th className="bg-gray-100 p-4 text-heading font-semibold text-start lg:text-end last:rounded-te-md">
+								<th className="bg-gray-700 p-4 text-heading font-semibold text-start lg:text-end last:rounded-te-md">
 									{t("text-actions")}
 								</th>
 							</tr>
@@ -64,7 +64,7 @@ const OrdersTable: React.FC = () => {
 								<td className="text-end px-4 py-5 text-heading">
 									<Link
 										href="/my-account/orders/3203"
-										className="text-sm leading-4 bg-heading text-white px-4 py-2.5 inline-block rounded-md hover:text-white hover:bg-gray-600"
+										className="text-sm leading-4 bg-gradient-to-r from-orange-500  to-pink-500 text-white px-4 py-2.5 inline-block rounded-md hover:text-white hover:bg-gray-600"
 									>
 										{t("button-view")}
 									</Link>
@@ -91,7 +91,7 @@ const OrdersTable: React.FC = () => {
 								<td className="text-end px-4 py-5 text-heading">
 									<Link
 										href="/my-account/orders/3204"
-										className="text-sm leading-4 bg-heading text-white px-4 py-2.5 inline-block rounded-md hover:text-white hover:bg-gray-600"
+										className="text-sm leading-4 bg-gradient-to-r from-orange-500  to-pink-500 text-white px-4 py-2.5 inline-block rounded-md hover:text-white hover:bg-gray-600"
 									>
 										{t("button-view")}
 									</Link>

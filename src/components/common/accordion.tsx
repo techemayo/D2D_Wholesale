@@ -33,7 +33,7 @@ export const Collapse: React.FC<CollapseProps> = ({
 	return (
 		<div
 			className={cn({
-				"rounded-md bg-gray-200": variant === "gray",
+				"rounded-md bg-gray-700": variant === "gray",
 				"shadow-sm": isOpen,
 			})}
 		>
@@ -78,7 +78,7 @@ export const Collapse: React.FC<CollapseProps> = ({
 						variants={heightCollapse()}
 					>
 						<div
-							className={cn("pb-6 md:pb-7 leading-7 text-sm text-gray-600", {
+							className={cn("pb-6 md:pb-7 leading-7 text-sm text-gray-500", {
 								"pt-5 border-t border-gray-300 px-6 md:px-8 lg:px-10":
 									variant === "gray",
 							})}

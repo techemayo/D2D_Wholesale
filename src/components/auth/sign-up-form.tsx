@@ -35,7 +35,7 @@ const SignUpForm: React.FC = () => {
 		console.log(name, email, username, password, "sign form values");
 	}
 	return (
-		<div className="py-5 px-5 sm:px-8 bg-white mx-auto rounded-lg w-full sm:w-96 md:w-450px border border-gray-300">
+		<div className="py-5 px-5 sm:px-8 bg-gray-700 mx-auto rounded-lg w-full sm:w-96 md:w-450px">
 			<div className="text-center mb-6 pt-2.5">
 				<div onClick={closeModal}>
 					<Logo />

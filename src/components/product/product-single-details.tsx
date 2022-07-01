@@ -27,6 +27,7 @@ const productGalleryCarouselResponsive = {
 
 const ProductSingleDetails: React.FC = () => {
 	const {
+		limit = 1,
 		query: { slug },
 	} = useRouter();
 	const { width } = useWindowSize();
@@ -40,6 +41,7 @@ const ProductSingleDetails: React.FC = () => {
 			amount: data.sale_price ? data.sale_price : data.price,
 			baseAmount: data.price,
 			currencyCode: "USD",
+			
 		}
 	);
 	if (isLoading) return <p>Loading...</p>;
@@ -70,6 +72,7 @@ const ProductSingleDetails: React.FC = () => {
 			closeOnClick: true,
 			pauseOnHover: true,
 			draggable: true,
+			
 		});
 		console.log(item, "item");
 	}
@@ -78,41 +81,45 @@ const ProductSingleDetails: React.FC = () => {
 		setAttributes((prev) => ({
 			...prev,
 			...attribute,
+			
 		}));
 	}
 
 	return (
 		<div className="block lg:grid grid-cols-9 gap-x-10 xl:gap-x-14 pt-7 pb-10 lg:pb-14 2xl:pb-20 items-start">
-			{width < 1025 ? (
-				<Carousel
-					pagination={{
-						clickable: true,
-					}}
-					breakpoints={productGalleryCarouselResponsive}
-					className="product-gallery"
-					buttonGroupClassName="hidden"
-				>
-					{data?.gallery?.map((item, index: number) => (
-						<SwiperSlide key={`product-gallery-key-${index}`}>
-							<div className="col-span-1 transition duration-150 ease-in hover:opacity-90">
-								<img
-									src={
-										item?.original ??
-										"/assets/placeholder/products/product-gallery.svg"
-									}
-									alt={`${data?.name}--${index}`}
-									className="object-cover w-full"
-								/>
-							</div>
-						</SwiperSlide>
-					))}
-				</Carousel>
-			) : (
+			{
+			// width < 1025 ? (
+			// 	<Carousel
+			// 		pagination={{
+			// 			clickable: true,
+			// 		}}
+			// 		breakpoints={productGalleryCarouselResponsive}
+			// 		className="product-gallery"
+			// 		buttonGroupClassName="hidden"
+			// 	>
+			// 		{data?.gallery?.map((item, index: number) => (
+			// 			<SwiperSlide key={`product-gallery-key-${index}`}>
+			// 				<div className="col-span-1 transition duration-150 ease-in hover:opacity-90">
+			// 					<img
+			// 						src={
+			// 							item?.original ??
+			// 							"/assets/placeholder/products/product-gallery.svg"
+			// 						}
+			// 						alt={`${data?.name}--${index}`}
+			// 						className="object-cover w-full"
+			// 					/>
+			// 				</div>
+			// 			</SwiperSlide>
+			// 		))}
+			// 	</Carousel>
+			// ) : 
+			(
 				<div className="col-span-5 grid grid-cols-2 gap-2.5">
-					{data?.gallery?.map((item, index: number) => (
+					
+					{data?.gallery?.slice(0,limit).map((item, index: number) => (
 						<div
 							key={index}
-							className="col-span-1 transition duration-150 ease-in hover:opacity-90"
+							className="col-span-2 transition duration-150 ease-in hover:opacity-90"
 						>
 							<img
 								src={
@@ -129,10 +136,10 @@ const ProductSingleDetails: React.FC = () => {
 
 			<div className="col-span-4 pt-8 lg:pt-0">
 				<div className="pb-7 mb-7 border-b border-gray-300">
-					<h2 className="text-heading text-lg md:text-xl lg:text-2xl 2xl:text-3xl font-bold hover:text-black mb-3.5">
+					<h2 className="text-heading text-lg md:text-xl lg:text-2xl 2xl:text-3xl font-bold hover:text-gray-600 mb-3.5">
 						{data?.name}
 					</h2>
-					<p className="text-body text-sm lg:text-base leading-6 lg:leading-8">
+					<p className="text-gray-500 text-sm lg:text-base leading-6 lg:leading-8">
 						{data?.description}
 					</p>
 					<div className="flex items-center mt-5">

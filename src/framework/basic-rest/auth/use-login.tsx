@@ -10,10 +10,10 @@ export interface LoginInputType {
   remember_me: boolean;
 }
 async function login(input: LoginInputType) {
-  return http.post(API_ENDPOINTS.LOGIN, input);
-  // return {
-  //   token: `${input.email}.${input.remember_me}`.split("").reverse().join(""),
-  // };
+  // return http.post(API_ENDPOINTS.LOGIN, input);
+  return {
+    token: `${input.email}.${input.remember_me}`.split("").reverse().join(""),
+  };
 }
 export const useLoginMutation = () => {
   const { authorize, closeModal } = useUI();

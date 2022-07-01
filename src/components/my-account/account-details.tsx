@@ -107,6 +107,7 @@ const AccountDetails: React.FC = () => {
 								labelKey="forms:label-male"
 								{...register("gender")}
 								value="male"
+								
 							/>
 							<RadioBox
 								labelKey="forms:label-female"
@@ -120,7 +121,7 @@ const AccountDetails: React.FC = () => {
 							type="submit"
 							loading={isLoading}
 							disabled={isLoading}
-							className="h-12 mt-3 w-full sm:w-32"
+							className="h-12 mt-3 w-full sm:w-32 bg-gradient-to-r from-orange-500  to-pink-500"
 						>
 							{t("common:button-save")}
 						</Button>

@@ -115,7 +115,7 @@ const CheckoutForm: React.FC = () => {
 						/>
 					</div>
 					<div className="relative flex items-center ">
-						<CheckBox labelKey="forms:label-save-information" />
+						<CheckBox class="check-out-check-box" labelKey="forms:label-save-information" />
 					</div>
 					<TextArea
 						labelKey="forms:label-order-notes"
@@ -125,7 +125,7 @@ const CheckoutForm: React.FC = () => {
 					/>
 					<div className="flex w-full">
 						<Button
-							className="w-full sm:w-auto"
+							className="w-full sm:w-auto bg-gradient-to-r from-orange-500  to-pink-500"
 							loading={isLoading}
 							disabled={isLoading}
 						>

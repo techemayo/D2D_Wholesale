@@ -241,6 +241,30 @@
   input::placeholder {
     color: #707070;
   }
+  input#firstName,
+  #lastName,
+  #address,
+  #phone,
+  #phoneNumber,
+  #email,
+  #city,
+  #zipCode,
+  #displayName,
+  #oldPassword,
+  #newPassword {
+    color: white;
+    background-color: #292929;
+    border: none;
+  }
+  textarea#note {
+    color: white;
+    background-color: #292929;
+    border: none;
+  }
+  .subscribe {
+    background-color: red;
+    color: black;
+  }
 
   .popupClosed {
     @apply -top-3.5 md:-top-4 -end-3.5 md:-end-4;

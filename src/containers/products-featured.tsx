@@ -35,8 +35,11 @@ const ProductsFeatured: React.FC<ProductsProps> = ({
 			{error ? (
 				<Alert message={error?.message} />
 			) : (
+				// <div className="first-letter:grid-cols-2">
 				<div className="first-letter:grid-cols-2">
-					<div className="grid grid-rows-full  gap-3 md:gap-5 xl:gap-7 float-left lg:mr-8" style={{maxHeight:'480px'}}>
+
+					{/* <div className="grid grid-rows-full  gap-3 md:gap-5 xl:gap-7 float-left lg:mr-8" style={{maxHeight:'480px'}}> */}
+					<div className="grid grid-rows-full gap-3 md:max md:gap-5 xl:gap-7 float-left lg:mr-8">
 						{data?.slice(0, singlelimit).map((product: Product, idx: number) => (
 							<ProductOverlayCardBackup
 								key={`product--key${product.id}`}

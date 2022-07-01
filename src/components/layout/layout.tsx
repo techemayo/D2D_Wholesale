@@ -44,7 +44,7 @@ const Layout: React.FC = ({ children }) => {
 					],
 				}}
 			/>
-			<Header />
+			{/* <Header /> */}
 			<main
 				className="relative flex-grow"
 				style={{
