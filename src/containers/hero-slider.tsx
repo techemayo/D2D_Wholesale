@@ -23,7 +23,7 @@ const HeroSlider: React.FC<Props> = ({
 	return (
 		<div
 			className={cn(
-				"relative mb-5 md:mb-8",
+				" mb-5 md:mb-8",
 				{
 					"mx-auto max-w-[1920px]": variant === "fullWidth",
 				},
@@ -54,12 +54,12 @@ const HeroSlider: React.FC<Props> = ({
 					>
 						<BannerCard
 						title={title}
-							banner={banner}
-							href={`${ROUTES.COLLECTIONS}/${banner.slug}`}
-							variant={variantRounded}
+						banner={banner}
+						href={`${ROUTES.COLLECTIONS}/${banner.slug}`}
+						variant={variantRounded}
 						/>
-						<div className="absolute text-white">
-							<span>{title}</span>
+						<div className="absolute text-white" id='test-para'>
+							<span>{banner.slider_title} <p>Hellow world</p> </span>
 						</div>
 					</SwiperSlide>
 				))}

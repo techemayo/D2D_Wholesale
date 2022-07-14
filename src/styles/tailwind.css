@@ -6,7 +6,7 @@
 @layer base {
   html {
     -webkit-tap-highlight-color: transparent;
-    @apply bg-gray-850;
+    @apply bg-gray-800;
   }
   html,
   body {

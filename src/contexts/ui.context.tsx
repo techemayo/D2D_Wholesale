@@ -92,7 +92,11 @@ type Action =
 	| {
 			type: "SET_USER_AVATAR";
 			value: string;
-	  };
+	  }
+	| {
+			type: "SET_BANNERS";
+			value: string;
+  	  };
 
 type MODAL_VIEWS =
 	| "SIGN_UP_VIEW"
@@ -230,6 +234,13 @@ function uiReducer(state: State, action: Action) {
 				rememberMe: action.value,
 			};
 		}
+		case "SET_BANNERS": {
+			return {
+				...state,
+				banners: action.value,
+			};
+			
+		}
 	}
 }
 
@@ -271,6 +282,11 @@ export const UIProvider: React.FC = (props) => {
 
 	const setRememberMe = (_value: boolean) =>
 		dispatch({ type: "SET_REMEMBER_ME", value: _value });
+		
+	const setBanners= (_value: Array) =>
+		dispatch({ type: "SET_BANNERS", value: _value });
+
+		
 
 	const setModalView = (view: MODAL_VIEWS) =>
 		dispatch({ type: "SET_MODAL_VIEW", view });
@@ -305,6 +321,7 @@ export const UIProvider: React.FC = (props) => {
 			setUserAvatar,
 			setRememberMe,
 			setModalData,
+			setBanners,
 		}),
 		[state]
 	);

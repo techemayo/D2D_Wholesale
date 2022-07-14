@@ -77,7 +77,7 @@ const ProductOverlayCard: React.FC<ProductProps> = ({
 	return (
 		<div
 			onClick={handlePopupView}
-			className={`${classes} cursor-pointer group flex flex-col bg-gray-200 rounded-md relative items-center justify-between overflow-hidden`}
+			className={`${classes} cursor-pointer group flex flex-col bg-gray-650 rounded-md relative items-center justify-between overflow-hidden`}
 		>
 			<div
 				className="flex justify-center items-center p-4 h-full 3xl:min-h-[330px]"
@@ -96,7 +96,7 @@ const ProductOverlayCard: React.FC<ProductProps> = ({
 				/>
 			</div>
 			{discount && (
-				<span className="absolute top-3.5 md:top-5 3xl:top-7 start-3.5 md:start-5 3xl:start-7 text-white bg-gradient-to-r from-orange-500 to-pink-500 text-10px md:text-sm leading-5 rounded-xl inline-block px-2 xl:px-3 pt-0.5 pb-1">
+				<span className="absolute top-3.5 md:top-5 3xl:top-7 start-3.5 md:start-5 3xl:start-7 text-gray-500 bg-gradient-to-r from-orange-500 to-pink-500 text-10px md:text-sm leading-5 rounded-xl inline-block px-2 xl:px-3 pt-0.5 pb-1">
 					{discount}
 				</span>
 			)}
@@ -106,11 +106,11 @@ const ProductOverlayCard: React.FC<ProductProps> = ({
 				title={product?.name}
 			>
 				<div className="md:pe-2 lg:pe-0 2xl:pe-2 overflow-hidden ">
-					<h2 className="text-gray-700 font-semibold text-sm md:text-base xl:text-lg mb-1 truncate">
+					<h2 className="text-white font-semibold text-sm md:text-base xl:text-lg mb-1 truncate">
 						{product?.name}
 					</h2>
 					
-					<p className="text-body text-xs xl:text-sm leading-normal xl:leading-relaxed truncate max-w-[250px]">
+					<p className="text-white text-xs xl:text-sm leading-normal xl:leading-relaxed truncate max-w-[250px]">
 						{product?.description}
 					</p>
 				</div>
@@ -120,7 +120,7 @@ const ProductOverlayCard: React.FC<ProductProps> = ({
 							{basePrice}
 						</del>
 					)}
-					<div className=" text-gray-700 font-segoe font-semibold text-base md:text-xl lg:text-base xl:text-xl 3xl:text-2xl 3xl:mt-0.5 pe-2 md:pe-0 lg:pe-2 2xl:pe-0">
+					<div className=" text-white font-segoe font-semibold text-base md:text-xl lg:text-base xl:text-xl 3xl:text-2xl 3xl:mt-0.5 pe-2 md:pe-0 lg:pe-2 2xl:pe-0">
 						{price}
 					</div>
 				</div>

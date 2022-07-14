@@ -4,6 +4,12 @@ import type { FC } from "react";
 import { useWindowSize } from "@utils/use-window-size";
 import cn from "classnames";
 import { LinkProps } from "next/link";
+import { ROUTES } from "@utils/routes";
+import { API_ENDPOINTS } from "@framework/utils/api-endpoints";
+
+
+
+
 
 interface BannerProps {
 	banner: any;
@@ -29,6 +35,9 @@ const BannerCard: FC<BannerProps> = ({
 	const { width } = useWindowSize();
 	const { title, image } = banner;
 	const selectedImage = getImage(width, image);
+	const myLoader = ({ src }) => {
+		return `${API_ENDPOINTS.NEXT_PUBLIC_REST_ENDPOINT}/${src}`
+	  }
 	return (
 		<div className={cn("mx-auto", className)}>
 			<Link
@@ -39,6 +48,9 @@ const BannerCard: FC<BannerProps> = ({
 				)}
 			>
 				<Image
+					loader={myLoader}
+					// src={`${ROUTES.BANNER}/${selectedImage.url}`}
+					// src={`${process.env.NEXT_PUBLIC_REST_API_ENDPOINT}${selectedImage.url}`}
 					src={selectedImage.url}
 					width={selectedImage.width}
 					height={selectedImage.height}
