@@ -1,12 +1,12 @@
 [
   {
     "id": 1,
-    "name": "Armani Veni Vidi Vici",
-    "description": "Fendi began life in 1925 as a fur and leather speciality store in Rome.",
+    "name": "Lorem Ipsum dolor sit",
+    "description": "Consetetur sadipscing elitr..",
     "slug": "armani-veni-vidi-vici",
     "image": {
       "id": 1,
-      "thumbnail": "/assets/images/products/p-11.png",
+      "thumbnail": "/assets/images/products/p-10.png",
       "original": "/assets/images/products/p-11-m.png"
     },
     "gallery": [
@@ -114,12 +114,12 @@
   },
   {
     "id": 2,
-    "name": "H&M Global Desi",
-    "description": "Blue solid woven regular top, curved hem with tassell detailing has shoulder straps, and sleeveless",
+    "name": "Lorem Ipsum dolor sit",
+    "description": "Consetetur sadipscing elitr..",
     "slug": "hm-global-desi",
     "image": {
       "id": 1,
-      "thumbnail": "/assets/images/products/p-22.png",
+      "thumbnail": "/assets/images/products/p-3.png",
       "original": "/assets/images/products/p-22-m.png"
     },
     "gallery": [
@@ -135,7 +135,7 @@
       },
       {
         "id": 3,
-        "thumbnail": "/assets/images/products/p-12-3.png",
+        "thumbnail": "/assets/images/products/5.png",
         "original": "/assets/images/products/p-12-3.png"
       },
       {
@@ -227,12 +227,12 @@
   },
   {
     "id": 3,
-    "name": "Zara Solly White Shirt",
-    "description": "For a chic and smart look, don this white shirt from Solly by Allen Solly. Crafted from a cotton-nylon blend with a hint of stretch, this design features a dotted pattern. Wear this 3/4th sleeves shirt with trousers and wedges to a client meeting.",
+    "name": "Lorem Ipsum dolor sit",
+    "description": "Consetetur sadipscing elitr..",
     "slug": "zara-solly-white-shirt",
     "image": {
       "id": 1,
-      "thumbnail": "/assets/images/products/p-18.png",
+      "thumbnail": "/assets/images/products/p-25-md.png",
       "original": "/assets/images/products/p-18-m.png"
     },
     "gallery": [
@@ -340,12 +340,12 @@
   },
   {
     "id": 4,
-    "name": "Hermes  Carlton London",
-    "description": "Off-White self-striped knitted midi A-line dress, has a scoop neck, sleeveless, straight hem",
+    "name": "Lorem Ipsum dolor sit",
+    "description": "Consetetur sadipscing elitr..",
     "slug": "hermes-carlton-london",
     "image": {
       "id": 1,
-      "thumbnail": "/assets/images/products/p-14.png",
+      "thumbnail": "/assets/images/products/5.png",
       "original": "/assets/images/products/p-14-m.png"
     },
     "gallery": [
@@ -453,8 +453,8 @@
   },
   {
     "id": 5,
-    "name": "Scuba Stand Collar Topper Jacket",
-    "description": "Zara provides only the highest-quality selection of dresses, womens suits, and suited separates.",
+    "name": "Lorem Ipsum dolor sit",
+    "description": "Consetetur sadipscing elitr..",
     "slug": "scuba-stand-collar-topper-jacket",
     "image": {
       "id": 1,
@@ -566,12 +566,12 @@
   },
   {
     "id": 6,
-    "name": "Armani Wide-Leg Trousers",
-    "description": "Monochrome elegance. Made with a relaxed wide-leg, these trousers are made from a sustainable soft organic cotton with a mechanical stretch making the garment easily recycled.",
+    "name": "Lorem Ipsum dolor sit",
+    "description": "Consetetur sadipscing elitr..",
     "slug": "armani-wide-leg-trousers",
     "image": {
       "id": 1,
-      "thumbnail": "/assets/images/products/p-16.png",
+      "thumbnail": "/assets/images/products/1.png",
       "original": "/assets/images/products/p-16-m.png"
     },
     "gallery": [
@@ -679,12 +679,12 @@
   },
   {
     "id": 7,
-    "name": "Short Sleeve Shirts For Men",
-    "description": "From casual days out to parties, dinners and other events that call for a dressier look, a short sleeve shirt is a versatile piece that works for all kinds of occasions.",
+    "name": "Lorem Ipsum dolor sit",
+    "description": "Consetetur sadipscing elitr..",
     "slug": "short-sleeve-shirts-for-men",
     "image": {
       "id": 1,
-      "thumbnail": "/assets/images/products/p-17.png",
+      "thumbnail": "/assets/images/products/2.png",
       "original": "/assets/images/products/p-17-m.png"
     },
     "gallery": [
@@ -792,12 +792,12 @@
   },
   {
     "id": 8,
-    "name": "Blazer And A Neck Scarf",
-    "description": "blue short sleeve basic midi dress featuring a crew neckline in a jersey fabric.",
+    "name": "Lorem Ipsum dolor sit",
+    "description": "Consetetur sadipscing elitr..",
     "slug": "blazer-and-a-neck-scarf",
     "image": {
       "id": 1,
-      "thumbnail": "/assets/images/products/p-13.png",
+      "thumbnail": "/assets/images/products/4.png",
       "original": "/assets/images/products/p-13-m.png"
     },
     "gallery": [
@@ -905,12 +905,12 @@
   },
   {
     "id": 9,
-    "name": "Zara Shoes Green",
-    "description": "Footwear refers to garments worn on the feet, which originally serves to purpose of protection against adversities of the environment, usually regarding ground textures and temperature.",
+    "name": "Lorem Ipsum dolor sit",
+    "description": "Consetetur sadipscing elitr..",
     "slug": "zara-shoes-green",
     "image": {
       "id": 1,
-      "thumbnail": "/assets/images/products/p-19.png",
+      "thumbnail": "/assets/images/products/p-24.png",
       "original": "/assets/images/products/p-19-m.png"
     },
     "gallery": [
@@ -1018,12 +1018,12 @@
   },
   {
     "id": 10,
-    "name": "Maniac Red Boys",
-    "description": "Sporty essentials, these Under Armour athletic shorts are smooth and lightweight in moisture-wicking material.",
+    "name": "Lorem Ipsum dolor sit",
+    "description": "Consetetur sadipscing elitr..",
     "slug": "maniac-red-boys",
     "image": {
       "id": 1,
-      "thumbnail": "/assets/images/products/p-20.png",
+      "thumbnail": "/assets/images/products/11.png",
       "original": "/assets/images/products/p-20-m.png"
     },
     "gallery": [
