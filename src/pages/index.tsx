@@ -42,62 +42,27 @@ import { useQuery } from "react-query";
 
 export default function Home() {
 
-	const [banners, setBanners] = useState([]);
+	// const [banners, setBanners] = useState([]);
 
-	const getBanners = () => {
-		axios("http://127.0.0.1:8000/api/slider") .then(
-			(response) => {
-				setBanners(response.data.data);
-		// console.log(response.data.data);
+	// const getBanners = () => {
+	// 	axios("http://127.0.0.1:8000/api/slider") .then(
+	// 		(response) => {
+	// 			setBanners(response.data.data);
+	// 	// console.log(response.data.data);
 				
-			}	
-		)
-	}
-	useEffect(() => {
-		getBanners();
-		console.log(banners);
+	// 		}	
+	// 	)
+	// }
+	// useEffect(() => {
+	// 	getBanners();
+	// 	console.log(banners);
 
-	  }, []);
+	//   }, []);
 	  
 	// useEffect(() => {
 	// 	console.log(banners);
 	// 	getBanners();
 	//   });
-
-
-// 	const { isLoading, error, data } = useQuery("get", () =>
-//     axios("http://127.0.0.1:8000/api/slider")
-//   );
-//   console.log(data)
- 
-// 	const reducer (state = banners, action) => {
-
-// 		switch(action.type) {
-// 			case SET_DATA : return{
-// 				data = banners
-// 			}
-// 			default: return state
-// 		}
-// 	}
-		
-		// const [banners, setBanner] = useState("");
-	
-		// useEffect(() => {
-		// 	const url = "http://127.0.0.1:8000/api/slider";
-	
-		// 	const fetchData = async () => {
-		// 		try {
-		// 			const response = await fetch(url);
-		// 			const json = await response.json();
-		// 			console.log(json.banners);
-		// 			setBanner(json.banners);
-		// 		} catch (error) {
-		// 			console.log("error", error);
-		// 		}
-		// 	};
-	
-		// 	fetchData();
-		// }, []);
 	
 	return (
 		<>
