@@ -14,7 +14,7 @@
 
 import Container from "@components/ui/container";
 import Layout from "@components/layout/layout";
-import Divider from "@components/ui/divider";
+// import Divider from "@components/ui/divider";
 import ProductsFeatured from "@containers/products-featured";
 import Subscription from "@components/common/subscription";
 import NewArrivalsProductFeed from "@components/product/feeds/new-arrivals-product-feed";
@@ -27,13 +27,14 @@ import { bannerDataThree } from "@framework/static/banner";
 import CategoryBlockIcon from "@containers/category-block-icon";
 import ProductsFlashSaleCarousel from "@containers/product-flash-sale-carousel";
 import BrandBlock from "@containers/brand-block";
-import http from "@framework/utils/http";
+// import http from "@framework/utils/http";
+import { homeElegantHeroSlider as banners } from "@framework/static/banner";
 
-import React, { useEffect, useState } from "react";
+// import React, { useEffect, useState } from "react";
 
 
-import axios from "axios";
-import { useQuery } from "react-query";
+// import axios from "axios";
+// import { useQuery } from "react-query";
 
 
 
@@ -42,22 +43,22 @@ import { useQuery } from "react-query";
 
 export default function Home() {
 
-	const [banners, setBanners] = useState([]);
+	// const [banners, setBanners] = useState([]);
 
-	const getBanners = () => {
-		axios("http://127.0.0.1:8000/api/slider") .then(
-			(response) => {
-				setBanners(response.data.data);
-		// console.log(response.data.data);
+	// const getBanners = () => {
+	// 	axios("http://127.0.0.1:8000/api/slider") .then(
+	// 		(response) => {
+	// 			setBanners(response.data.data);
+	// 	// console.log(response.data.data);
 				
-			}	
-		)
-	}
-	useEffect(() => {
-		getBanners();
-		console.log(banners);
+	// 		}	
+	// 	)
+	// }
+	// useEffect(() => {
+	// 	getBanners();
+	// 	console.log(banners);
 
-	  }, []);
+	//   }, []);
 	  
 	// useEffect(() => {
 	// 	console.log(banners);
