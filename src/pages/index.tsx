@@ -28,7 +28,6 @@ import CategoryBlockIcon from "@containers/category-block-icon";
 import ProductsFlashSaleCarousel from "@containers/product-flash-sale-carousel";
 import BrandBlock from "@containers/brand-block";
 // import http from "@framework/utils/http";
-import { homeElegantHeroSlider as banners } from "@framework/static/banner";
 
 // import React, { useEffect, useState } from "react";
 
