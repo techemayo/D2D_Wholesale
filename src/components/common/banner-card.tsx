@@ -36,7 +36,7 @@ const BannerCard: FC<BannerProps> = ({
 	const { title, image } = banner;
 	const selectedImage = getImage(width, image);
 	const myLoader = ({ src }) => {
-		return `${API_ENDPOINTS.NEXT_PUBLIC_REST_ENDPOINT}/${src}`
+		return `${API_ENDPOINTS.NEXT_PUBLIC_REST_ENDPOINT}${src}`
 	  }
 	return (
 		<div className={cn("mx-auto", className)}>

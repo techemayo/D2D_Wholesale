@@ -21,5 +21,6 @@ export const API_ENDPOINTS = {
   SEARCH: "/search.json",
   ORDERS: "/orders.json",
   ORDER: "/order.json",
-  NEXT_PUBLIC_REST_ENDPOINT: "http://localhost:8000",
+  NEXT_PUBLIC_REST_ENDPOINT: "https://day2day-ui.herokuapp.com",
+  // NEXT_PUBLIC_REST_ENDPOINT: "http://localhost:8000",
 };
