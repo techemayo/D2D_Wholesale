@@ -35,7 +35,7 @@ const SignUpForm: React.FC = () => {
 		console.log(name, email, username, password, "sign form values");
 	}
 	return (
-		<div className="py-5 px-5 sm:px-8 bg-gray-700 mx-auto rounded-lg w-full sm:w-96 md:w-450px">
+		<div className="py-5 px-5 sm:px-8 bg-gray-800 mx-auto rounded-lg w-full sm:w-96 md:w-450px">
 			<div className="text-center mb-6 pt-2.5">
 				<div onClick={closeModal}>
 					<Logo />
@@ -64,6 +64,7 @@ const SignUpForm: React.FC = () => {
 			>
 				<div className="flex flex-col space-y-4">
 					<Input
+						className=""
 						labelKey="forms:label-name"
 						type="text"
 						variant="solid"
@@ -116,7 +117,7 @@ const SignUpForm: React.FC = () => {
 			</form>
 			<div className="flex flex-col items-center justify-center relative text-sm text-heading mt-6 mb-3.5">
 				<hr className="w-full border-gray-300" />
-				<span className="absolute -top-2.5 px-2 bg-white">
+				<span className="absolute -top-2.5 px-2 bg-gray-750">
 					{t("common:text-or")}
 				</span>
 			</div>

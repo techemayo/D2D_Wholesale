@@ -52,7 +52,8 @@ const Text: React.FC<Props> = ({
 					"text-white text-sm sm:leading-6 leading-7": variant === "body",
 					"text-heading text-lg md:text-xl lg:text-2xl 2xl:text-3xl xl:leading-10 font-bold":
 						variant === "mediumHeading",
-					"text-heading text-sm md:text-base xl:text-lg font-semibold":
+						// category heading size change from lg to md
+					"text-heading text-sm md:text-base xl:text-md font-semibold":
 						variant === "heading",
 					"text-2xl font-bold text-heading": variant === "pageHeading",
 					"text-heading text-lg md:text-2xl xl:text-3xl 2xl:text-4xl  font-bold":

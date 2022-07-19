@@ -1,13 +1,14 @@
 {
   "id": 1,
   "sku": "N/A",
-  "name": "Maniac Red Boys",
-  "slug": "maniac-red-boys",
-  "description": "Children’s clothing/ kids wear is usually more casual than adult clothing, fit play and rest. Hosiery is usually used. More recently, however, tons of childrenswear is heavily influenced by trends in adult fashion",
+  "name": "Lorem ipsum dolor sit amet",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error similique ad minus quas! Voluptatibus, possimus. Rem quod possimus cum quia quibusdam delectus.",
+  
+  "slug": "lorem-ipsum-dolor-sit-amet",
   "category": {
     "id": 1,
-    "name": "kids",
-    "slug": "kids"
+    "name": "Rechargable",
+    "slug": "Rechargable"
   },
   "tags": [
     {
@@ -22,35 +23,35 @@
     },
     {
       "id": 3,
-      "name": "Red",
-      "slug": "red"
+      "name": "Customizable",
+      "slug": "customizable"
     }
   ],
   "image": {
     "id": 1,
-    "thumbnail": "/assets/images/products/p-20.png",
-    "original": "/assets/images/products/p-20-m.png"
+    "thumbnail": "/assets/images/products/p-107.jpg",
+    "original": "/assets/images/products/p-107.jpg"
   },
   "gallery": [
     {
       "id": 1,
-      "thumbnail": "/assets/images/products/p-20-1.png",
-      "original": "/assets/images/products/p-20-1.png"
+      "thumbnail": "/assets/images/products/p-107.jpg",
+      "original": "/assets/images/products/p-107.jpg"
     },
     {
       "id": 2,
-      "thumbnail": "/assets/images/products/p-20-2.png",
-      "original": "/assets/images/products/p-20-2.png"
+      "thumbnail": "/assets/images/products/p-107.jpg",
+      "original": "/assets/images/products/p-107.jpg"
     },
     {
       "id": 3,
-      "thumbnail": "/assets/images/products/p-20-3.png",
-      "original": "/assets/images/products/p-20-3.png"
+      "thumbnail": "/assets/images/products/p-107.jpg",
+      "original": "/assets/images/products/p-107.jpg"
     },
     {
       "id": 4,
-      "thumbnail": "/assets/images/products/p-20-4.png",
-      "original": "/assets/images/products/p-20-4.png"
+      "thumbnail": "/assets/images/products/p-107.jpg",
+      "original": "/assets/images/products/p-107.jpg"
     }
   ],
   "price": 50,

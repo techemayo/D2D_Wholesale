@@ -28,7 +28,8 @@ const Card: React.FC<Props> = ({
 	const { t } = useTranslation("common");
 	return (
 		<Link
-			href={href}
+			// href={href}
+			href={"#"}
 			className="group flex justify-center text-center flex-col"
 		>
 			<div

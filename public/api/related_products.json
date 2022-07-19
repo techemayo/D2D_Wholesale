@@ -1,24 +1,24 @@
 [
   {
     "id": 1,
-    "name": "Maniac Red Boys",
-    "description": "Sporty essentials, these Under Armour athletic shorts are smooth and lightweight in moisture-wicking material.",
-    "slug": "maniac-red-boys",
+    "name": "Lorem ipsum dolor sit amet",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "slug": "lorem-ipsum-dolor-sit-amet",
     "image": {
       "id": 1,
-      "thumbnail": "/assets/images/products/p-20.png",
-      "original": "/assets/images/products/p-20-m.png"
+      "thumbnail": "/assets/images/products/p-109.jpg",
+      "original": "/assets/images/products/p-109.jpg"
     },
     "gallery": [
       {
         "id": 1,
-        "thumbnail": "/assets/images/products/p-20-1.png",
-        "original": "/assets/images/products/p-20-1.png"
+        "thumbnail": "/assets/images/products/p-109.jpg",
+        "original": "/assets/images/products/p-109.jpg"
       },
       {
         "id": 2,
-        "thumbnail": "/assets/images/products/p-20-2.png",
-        "original": "/assets/images/products/p-20-2.png"
+        "thumbnail": "/assets/images/products/p-109.jpg",
+        "original": "/assets/images/products/p-109.jpg"
       }
     ],
     "price": 20.00,
@@ -104,34 +104,34 @@
   },
   {
     "id": 2,
-    "name": "12 Eco-Friendly Clothing Brands That",
-    "description": "12 Eco-Friendly Clothing Brands That, has a scoop neck, sleeveless, straight hem",
-    "slug": "eco-friendly-clothing-brands-that",
+    "name": "Lorem ipsum dolor sit amet",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "slug": "lorem-ipsum-dolor-sit-amet",
     "image": {
       "id": 1,
-      "thumbnail": "/assets/images/products/p-5.png",
-      "original": "/assets/images/products/p-5-m.png"
+      "thumbnail": "/assets/images/products/p-106.jpeg",
+      "original": "/assets/images/products/p-106.jpeg"
     },
     "gallery": [
       {
         "id": 1,
-        "thumbnail": "/assets/images/products/p-5-1.png",
-        "original": "/assets/images/products/p-5-1.png"
+        "thumbnail": "/assets/images/products/p-106.jpeg",
+        "original": "/assets/images/products/p-106.jpeg"
       },
       {
         "id": 2,
-        "thumbnail": "/assets/images/products/p-5-2.png",
-        "original": "/assets/images/products/p-5-2.png"
+        "thumbnail": "/assets/images/products/p-106.jpeg",
+        "original": "/assets/images/products/p-106.jpeg"
       },
       {
         "id": 3,
-        "thumbnail": "/assets/images/products/p-5-3.png",
-        "original": "/assets/images/products/p-5-3.png"
+        "thumbnail": "/assets/images/products/p-106.jpeg",
+        "original": "/assets/images/products/p-106.jpeg"
       },
       {
         "id": 4,
-        "thumbnail": "/assets/images/products/p-5-4.png",
-        "original": "/assets/images/products/p-5-4.png"
+        "thumbnail": "/assets/images/products/p-106.jpeg",
+        "original": "/assets/images/products/p-106.jpeg"
       }
     ],
     "price": 28.00,
@@ -217,24 +217,24 @@
   },
   {
     "id": 3,
-    "name": "Long Sleeve Boy T-Shirt",
-    "description": "100% cotton fabric Rollable sleeves and epaulette Front double breast pocket",
-    "slug": "long-sleeve-boy-t-shirt",
+    "name": "Lorem ipsum dolor sit amet",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "slug": "lorem-ipsum-dolor-sit-amet",
     "image": {
       "id": 1,
-      "thumbnail": "/assets/images/products/p-23.png",
-      "original": "/assets/images/products/p-23-m.png"
+      "thumbnail": "/assets/images/products/p-105.jpg",
+      "original": "/assets/images/products/p-105.jpg"
     },
     "gallery": [
       {
         "id": 1,
-        "thumbnail": "/assets/images/products/p-23-1.png",
-        "original": "/assets/images/products/p-23-1.png"
+        "thumbnail": "/assets/images/products/p-105.jpg",
+        "original": "/assets/images/products/p-105.jpg"
       },
       {
         "id": 2,
-        "thumbnail": "/assets/images/products/p-23-2.png",
-        "original": "/assets/images/products/p-23-2.png"
+        "thumbnail": "/assets/images/products/p-105.jpg",
+        "original": "/assets/images/products/p-105.jpg"
       }
     ],
     "price": 30.00,
@@ -320,34 +320,34 @@
   },
   {
     "id": 4,
-    "name": "Regular Fit Flannel Shirt",
-    "description": "The garments labelled as Committed are products that have been produced using sustainable fibers or processes, reducing their environmental impact. Mango's goal is to support the implementation of practices more committed to the environment.",
-    "slug": "regular-fit-flannel-shirt",
+    "name": "Lorem ipsum dolor sit amet",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "slug": "lorem-ipsum-dolor-sit-amet",
     "image": {
       "id": 1,
-      "thumbnail": "/assets/images/products/p-4.png",
-      "original": "/assets/images/products/p-4-m.png"
+      "thumbnail": "/assets/images/products/p-111.jpg",
+      "original": "/assets/images/products/p-111.jpg"
     },
     "gallery": [
       {
         "id": 1,
-        "thumbnail": "/assets/images/products/p-4-1.png",
-        "original": "/assets/images/products/p-4-1.png"
+        "thumbnail": "/assets/images/products/p-111.jpg",
+        "original": "/assets/images/products/p-111.jpg"
       },
       {
         "id": 2,
-        "thumbnail": "/assets/images/products/p-4-2.png",
-        "original": "/assets/images/products/p-4-2.png"
+        "thumbnail": "/assets/images/products/p-111.jpg",
+        "original": "/assets/images/products/p-111.jpg"
       },
       {
         "id": 3,
-        "thumbnail": "/assets/images/products/p-4-3.png",
-        "original": "/assets/images/products/p-4-3.png"
+        "thumbnail": "/assets/images/products/p-111.jpg",
+        "original": "/assets/images/products/p-111.jpg"
       },
       {
         "id": 4,
-        "thumbnail": "/assets/images/products/p-4-4.png",
-        "original": "/assets/images/products/p-4-4.png"
+        "thumbnail": "/assets/images/products/p-111.jpg",
+        "original": "/assets/images/products/p-111.jpg"
       }
     ],
     "price": "",
@@ -433,34 +433,34 @@
   },
   {
     "id": 5,
-    "name": "Gucci Carlton UK",
-    "description": "Knitted midi A-line dress, has a scoop neck, sleeveless, straight hem",
-    "slug": "gucci-carlton-uk",
+    "name": "Lorem ipsum dolor sit amet",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "slug": "lorem-ipsum-dolor-sit-amet",
     "image": {
       "id": 1,
-      "thumbnail": "/assets/images/products/p-8.png",
-      "original": "/assets/images/products/p-8-m.png"
+      "thumbnail": "/assets/images/products/p-108.jpg",
+      "original": "/assets/images/products/p-108.jpg"
     },
     "gallery": [
       {
         "id": 1,
-        "thumbnail": "/assets/images/products/p-8-1.png",
-        "original": "/assets/images/products/p-8-1.png"
+        "thumbnail": "/assets/images/products/p-108.jpg",
+        "original": "/assets/images/products/p-108.jpg"
       },
       {
         "id": 2,
-        "thumbnail": "/assets/images/products/p-8-2.png",
-        "original": "/assets/images/products/p-8-2.png"
+        "thumbnail": "/assets/images/products/p-108.jpg",
+        "original": "/assets/images/products/p-108.jpg"
       },
       {
         "id": 3,
-        "thumbnail": "/assets/images/products/p-8-3.png",
-        "original": "/assets/images/products/p-8-3.png"
+        "thumbnail": "/assets/images/products/p-108.jpg",
+        "original": "/assets/images/products/p-108.jpg"
       },
       {
         "id": 4,
-        "thumbnail": "/assets/images/products/p-8-4.png",
-        "original": "/assets/images/products/p-8-4.png"
+        "thumbnail": "/assets/images/products/p-108.jpg",
+        "original": "/assets/images/products/p-108.jpg"
       }
     ],
     "price": 19.99,

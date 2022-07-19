@@ -3,11 +3,11 @@
     "id": 1,
     "name": "Lorem Ipsum dolor sit",
     "description": "Consetetur sadipscing elitr..",
-    "slug": "armani-veni-vidi-vici",
+    "slug": "Lorem Ipsum dolor sit",
     "image": {
       "id": 1,
       "thumbnail": "/assets/images/products/p-10.png",
-      "original": "/assets/images/products/p-11-m.png"
+      "original": "/assets/images/products/p-10.png"
     },
     "gallery": [
       {
@@ -116,11 +116,11 @@
     "id": 2,
     "name": "Lorem Ipsum dolor sit",
     "description": "Consetetur sadipscing elitr..",
-    "slug": "hm-global-desi",
+    "slug": "Lorem Ipsum dolor sit",
     "image": {
       "id": 1,
       "thumbnail": "/assets/images/products/p-3.png",
-      "original": "/assets/images/products/p-22-m.png"
+      "original": "/assets/images/products/p-3.png"
     },
     "gallery": [
       {
@@ -229,11 +229,11 @@
     "id": 3,
     "name": "Lorem Ipsum dolor sit",
     "description": "Consetetur sadipscing elitr..",
-    "slug": "zara-solly-white-shirt",
+    "slug": "Lorem Ipsum dolor sit",
     "image": {
       "id": 1,
       "thumbnail": "/assets/images/products/p-25-md.png",
-      "original": "/assets/images/products/p-18-m.png"
+      "original": "/assets/images/products/p-25-md.png"
     },
     "gallery": [
       {
@@ -342,11 +342,11 @@
     "id": 4,
     "name": "Lorem Ipsum dolor sit",
     "description": "Consetetur sadipscing elitr..",
-    "slug": "hermes-carlton-london",
+    "slug": "Lorem Ipsum dolor sit",
     "image": {
       "id": 1,
       "thumbnail": "/assets/images/products/5.png",
-      "original": "/assets/images/products/p-14-m.png"
+      "original": "/assets/images/products/5.png"
     },
     "gallery": [
       {
@@ -455,32 +455,32 @@
     "id": 5,
     "name": "Lorem Ipsum dolor sit",
     "description": "Consetetur sadipscing elitr..",
-    "slug": "scuba-stand-collar-topper-jacket",
+    "slug": "Lorem Ipsum dolor sit",
     "image": {
       "id": 1,
       "thumbnail": "/assets/images/products/p-15.png",
-      "original": "/assets/images/products/p-15-m.png"
+      "original": "/assets/images/products/p-15.png"
     },
     "gallery": [
       {
         "id": 1,
-        "thumbnail": "/assets/images/products/p-15-1.png",
-        "original": "/assets/images/products/p-15-1.png"
+        "thumbnail": "/assets/images/products/p-15.png",
+        "original": "/assets/images/products/p-15.png"
       },
       {
         "id": 2,
-        "thumbnail": "/assets/images/products/p-15-2.png",
-        "original": "/assets/images/products/p-15-2.png"
+        "thumbnail": "/assets/images/products/p-15.png",
+        "original": "/assets/images/products/p-15.png"
       },
       {
         "id": 3,
-        "thumbnail": "/assets/images/products/p-15-3.png",
-        "original": "/assets/images/products/p-15-3.png"
+        "thumbnail": "/assets/images/products/p-15.png",
+        "original": "/assets/images/products/p-15.png"
       },
       {
         "id": 4,
-        "thumbnail": "/assets/images/products/p-15-4.png",
-        "original": "/assets/images/products/p-15-4.png"
+        "thumbnail": "/assets/images/products/p-15.png",
+        "original": "/assets/images/products/p-15.png"
       }
     ],
     "price": 16.0,
@@ -568,32 +568,32 @@
     "id": 6,
     "name": "Lorem Ipsum dolor sit",
     "description": "Consetetur sadipscing elitr..",
-    "slug": "armani-wide-leg-trousers",
+    "slug": "Lorem Ipsum dolor sit",
     "image": {
       "id": 1,
       "thumbnail": "/assets/images/products/1.png",
-      "original": "/assets/images/products/p-16-m.png"
+      "original": "/assets/images/products/1.png"
     },
     "gallery": [
       {
         "id": 1,
-        "thumbnail": "/assets/images/products/p-16-1.png",
-        "original": "/assets/images/products/p-16-1.png"
+        "thumbnail": "/assets/images/products/1.png",
+        "original": "/assets/images/products/1.png"
       },
       {
         "id": 2,
-        "thumbnail": "/assets/images/products/p-16-2.png",
-        "original": "/assets/images/products/p-16-2.png"
+        "thumbnail": "/assets/images/products/1.png",
+        "original": "/assets/images/products/1.png"
       },
       {
         "id": 3,
-        "thumbnail": "/assets/images/products/p-16-3.png",
-        "original": "/assets/images/products/p-16-3.png"
+        "thumbnail": "/assets/images/products/1.png",
+        "original": "/assets/images/products/1.png"
       },
       {
         "id": 4,
-        "thumbnail": "/assets/images/products/p-16-4.png",
-        "original": "/assets/images/products/p-16-4.png"
+        "thumbnail": "/assets/images/products/1.png",
+        "original": "/assets/images/products/1.png"
       }
     ],
     "price": 80.0,
@@ -681,32 +681,32 @@
     "id": 7,
     "name": "Lorem Ipsum dolor sit",
     "description": "Consetetur sadipscing elitr..",
-    "slug": "short-sleeve-shirts-for-men",
+    "slug": "Lorem Ipsum dolor sit",
     "image": {
       "id": 1,
       "thumbnail": "/assets/images/products/2.png",
-      "original": "/assets/images/products/p-17-m.png"
+      "original": "/assets/images/products/2.png"
     },
     "gallery": [
       {
         "id": 1,
-        "thumbnail": "/assets/images/products/p-17-1.png",
-        "original": "/assets/images/products/p-17-1.png"
+        "thumbnail": "/assets/images/products/2.png",
+        "original": "/assets/images/products/2.png"
       },
       {
         "id": 2,
-        "thumbnail": "/assets/images/products/p-17-2.png",
-        "original": "/assets/images/products/p-17-2.png"
+        "thumbnail": "/assets/images/products/2.png",
+        "original": "/assets/images/products/2.png"
       },
       {
         "id": 3,
-        "thumbnail": "/assets/images/products/p-17-3.png",
-        "original": "/assets/images/products/p-17-3.png"
+        "thumbnail": "/assets/images/products/2.png",
+        "original": "/assets/images/products/2.png"
       },
       {
         "id": 4,
-        "thumbnail": "/assets/images/products/p-17-4.png",
-        "original": "/assets/images/products/p-17-4.png"
+        "thumbnail": "/assets/images/products/2.png",
+        "original": "/assets/images/products/2.png"
       }
     ],
     "price": 18.99,
@@ -794,32 +794,32 @@
     "id": 8,
     "name": "Lorem Ipsum dolor sit",
     "description": "Consetetur sadipscing elitr..",
-    "slug": "blazer-and-a-neck-scarf",
+    "slug": "Lorem Ipsum dolor sit",
     "image": {
       "id": 1,
       "thumbnail": "/assets/images/products/4.png",
-      "original": "/assets/images/products/p-13-m.png"
+      "original": "/assets/images/products/4.png"
     },
     "gallery": [
       {
         "id": 1,
-        "thumbnail": "/assets/images/products/p-13-1.png",
-        "original": "/assets/images/products/p-13-1.png"
+        "thumbnail": "/assets/images/products/4.png",
+        "original": "/assets/images/products/4.png"
       },
       {
         "id": 2,
-        "thumbnail": "/assets/images/products/p-13-2.png",
-        "original": "/assets/images/products/p-13-2.png"
+        "thumbnail": "/assets/images/products/4.png",
+        "original": "/assets/images/products/4.png"
       },
       {
         "id": 3,
-        "thumbnail": "/assets/images/products/p-13-1.png",
-        "original": "/assets/images/products/p-13-1.png"
+        "thumbnail": "/assets/images/products/4.png",
+        "original": "/assets/images/products/4.png"
       },
       {
         "id": 4,
-        "thumbnail": "/assets/images/products/p-13-2.png",
-        "original": "/assets/images/products/p-13-2.png"
+        "thumbnail": "/assets/images/products/4.png",
+        "original": "/assets/images/products/4.png"
       }
     ],
     "price": 23.0,
@@ -907,32 +907,32 @@
     "id": 9,
     "name": "Lorem Ipsum dolor sit",
     "description": "Consetetur sadipscing elitr..",
-    "slug": "zara-shoes-green",
+    "slug": "Lorem Ipsum dolor sit",
     "image": {
       "id": 1,
       "thumbnail": "/assets/images/products/p-24.png",
-      "original": "/assets/images/products/p-19-m.png"
+      "original": "/assets/images/products/p-24.png"
     },
     "gallery": [
       {
         "id": 1,
-        "thumbnail": "/assets/images/products/p-19-1.png",
-        "original": "/assets/images/products/p-19-1.png"
+        "thumbnail": "/assets/images/products/p-24.png",
+        "original": "/assets/images/products/p-24.png"
       },
       {
         "id": 2,
-        "thumbnail": "/assets/images/products/p-19-2.png",
-        "original": "/assets/images/products/p-19-2.png"
+        "thumbnail": "/assets/images/products/p-24.png",
+        "original": "/assets/images/products/p-24.png"
       },
       {
         "id": 3,
-        "thumbnail": "/assets/images/products/p-19-3.png",
-        "original": "/assets/images/products/p-19-3.png"
+        "thumbnail": "/assets/images/products/p-24.png",
+        "original": "/assets/images/products/p-24.png"
       },
       {
         "id": 4,
-        "thumbnail": "/assets/images/products/p-19-4.png",
-        "original": "/assets/images/products/p-19-4.png"
+        "thumbnail": "/assets/images/products/p-24.png",
+        "original": "/assets/images/products/p-24.png"
       }
     ],
     "price": 300.0,
@@ -1024,18 +1024,18 @@
     "image": {
       "id": 1,
       "thumbnail": "/assets/images/products/11.png",
-      "original": "/assets/images/products/p-20-m.png"
+      "original": "/assets/images/products/11.png"
     },
     "gallery": [
       {
         "id": 1,
-        "thumbnail": "/assets/images/products/p-20-1.png",
-        "original": "/assets/images/products/p-20-1.png"
+        "thumbnail": "/assets/images/products/11.png",
+        "original": "/assets/images/products/11.png"
       },
       {
         "id": 2,
-        "thumbnail": "/assets/images/products/p-20-2.png",
-        "original": "/assets/images/products/p-20-2.png"
+        "thumbnail": "/assets/images/products/11.png",
+        "original": "/assets/images/products/11.png"
       }
     ],
     "price": 20.0,

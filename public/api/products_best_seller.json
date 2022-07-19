@@ -1,9 +1,9 @@
 [
   {
     "id": 1,
-    "name": "Nike Black",
-    "description": "Casual wear (casual attire or clothing) may be a Western code that’s relaxed, occasional, spontaneous and fitted to everyday use. Casual wear became popular within the Western world",
-    "slug": "nike-black",
+    "name": "Lorem ipsum dolor sit amet",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "slug": "lorem-ipsum-dolor-sit-amet",
     "image": {
       "id": 1,
       "thumbnail": "/assets/images/products/p-1.png",
@@ -114,9 +114,9 @@
   },
   {
     "id": 2,
-    "name": "Hermes  Carlton London",
-    "description": "Off-White self-striped knitted midi A-line dress, has a scoop neck, sleeveless, straight hem",
-    "slug": "hermes-carlton-london",
+    "name": "Lorem ipsum dolor sit amet",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "slug": "lorem-ipsum-dolor-sit-amet",
     "image": {
       "id": 1,
       "thumbnail": "/assets/images/products/p-2.png",
@@ -227,34 +227,34 @@
   },
   {
     "id": 3,
-    "name": "Gucci Carlton UK",
-    "description": "Knitted midi A-line dress, has a scoop neck, sleeveless, straight hem",
-    "slug": "gucci-carlton-uk",
+    "name": "Lorem ipsum dolor sit amet",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "slug": "lorem-ipsum-dolor-sit-amet",
     "image": {
       "id": 1,
-      "thumbnail": "/assets/images/products/p-8.png",
-      "original": "/assets/images/products/p-8-m.png"
+      "thumbnail": "/assets/images/products/p-108.jpg",
+      "original": "/assets/images/products/p-108.jpg"
     },
     "gallery": [
       {
         "id": 1,
-        "thumbnail": "/assets/images/products/p-8-1.png",
-        "original": "/assets/images/products/p-8-1.png"
+        "thumbnail": "/assets/images/products/p-108.jpg",
+        "original": "/assets/images/products/p-108.jpg"
       },
       {
         "id": 2,
-        "thumbnail": "/assets/images/products/p-8-2.png",
-        "original": "/assets/images/products/p-8-2.png"
+        "thumbnail": "/assets/images/products/p-108.jpg",
+        "original": "/assets/images/products/p-108.jpg"
       },
       {
         "id": 3,
-        "thumbnail": "/assets/images/products/p-8-3.png",
-        "original": "/assets/images/products/p-8-3.png"
+        "thumbnail": "/assets/images/products/p-108.jpg",
+        "original": "/assets/images/products/p-108.jpg"
       },
       {
         "id": 4,
-        "thumbnail": "/assets/images/products/p-8-4.png",
-        "original": "/assets/images/products/p-8-4.png"
+        "thumbnail": "/assets/images/products/p-108.jpg",
+        "original": "/assets/images/products/p-108.jpg"
       }
     ],
     "price": 19.99,
@@ -340,9 +340,9 @@
   },
   {
     "id": 4,
-    "name": "Regular Fit Flannel Shirt",
-    "description": "The garments labelled as Committed are products that have been produced using sustainable fibers or processes, reducing their environmental impact. Mango's goal is to support the implementation of practices more committed to the environment.",
-    "slug": "regular-fit-flannel-shirt",
+    "name": "Lorem ipsum dolor sit amet",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "slug": "lorem-ipsum-dolor-sit-amet",
     "image": {
       "id": 1,
       "thumbnail": "/assets/images/products/p-4.png",
@@ -453,9 +453,9 @@
   },
   {
     "id": 5,
-    "name": "12 Eco-Friendly Clothing Brands That",
-    "description": "12 Eco-Friendly Clothing Brands That, has a scoop neck, sleeveless, straight hem",
-    "slug": "eco-friendly-clothing-brands-that",
+    "name": "Lorem ipsum dolor sit amet",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "slug": "lorem-ipsum-dolor-sit-amet",
     "image": {
       "id": 1,
       "thumbnail": "/assets/images/products/p-5.png",
@@ -566,9 +566,9 @@
   },
   {
     "id": 6,
-    "name": "Oversized W Sweater",
-    "description": "Constructed in cotton sweat fabric, this lovely piece, lacus eu mattis auctor, dolor lectus venenatis nulla, at tristique eros sem vel ante. Sed leo enim, iaculis ornare tristique non, vulputate sit amet ante.",
-    "slug": "oversized-w-sweater",
+    "name": "Lorem ipsum dolor sit amet",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "slug": "lorem-ipsum-dolor-sit-amet",
     "image": {
       "id": 1,
       "thumbnail": "/assets/images/products/p-6.png",
@@ -679,9 +679,9 @@
   },
   {
     "id": 7,
-    "name": "Regular Fit Crew-neck T-shirt",
-    "description": "Self-striped knitted midi A-line dress, has a scoop neck, T-shirt, straight hem",
-    "slug": "regular-fit-crew-neck-t-shirt",
+    "name": "Lorem ipsum dolor sit amet",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "slug": "lorem-ipsum-dolor-sit-amet",
     "image": {
       "id": 1,
       "thumbnail": "/assets/images/products/p-7.png",
@@ -792,9 +792,9 @@
   },
   {
     "id": 8,
-    "name": "Zara Shoes Green",
-    "description": "Footwear refers to garments worn on the feet, which originally serves to purpose of protection against adversities of the environment, usually regarding ground textures and temperature.",
-    "slug": "zara-shoes-green",
+    "name": "Lorem ipsum dolor sit amet",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "slug": "lorem-ipsum-dolor-sit-amet",
     "image": {
       "id": 1,
       "thumbnail": "/assets/images/products/p-3.png",
@@ -895,34 +895,34 @@
   },
   {
     "id": 9,
-    "name": "Women Fitted Neck T-Shirt",
-    "description": "All about the crisp cut and exceptional quality of the cotton, the Women Fitted V Neck Rib L/S T-Shirt won’t be one you’ll be tossing away ever.",
-    "slug": "women-fitted-neck-t-shirt",
+    "name": "Lorem ipsum dolor sit amet",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "slug": "lorem-ipsum-dolor-sit-amet",
     "image": {
       "id": 1,
-      "thumbnail": "/assets/images/products/p-9.png",
-      "original": "/assets/images/products/p-9-m.png"
+      "thumbnail": "/assets/images/products/p-107.jpg",
+      "original": "/assets/images/products/p-107.jpg"
     },
     "gallery": [
       {
         "id": 1,
-        "thumbnail": "/assets/images/products/p-9-1.png",
-        "original": "/assets/images/products/p-9-1.png"
+        "thumbnail": "/assets/images/products/p-107.jpg",
+        "original": "/assets/images/products/p-107.jpg"
       },
       {
         "id": 2,
-        "thumbnail": "/assets/images/products/p-9-2.png",
-        "original": "/assets/images/products/p-9-2.png"
+        "thumbnail": "/assets/images/products/p-107.jpg",
+        "original": "/assets/images/products/p-107.jpg"
       },
       {
         "id": 3,
-        "thumbnail": "/assets/images/products/p-9-3.png",
-        "original": "/assets/images/products/p-9-3.png"
+        "thumbnail": "/assets/images/products/p-107.jpg",
+        "original": "/assets/images/products/p-107.jpg"
       },
       {
         "id": 4,
-        "thumbnail": "/assets/images/products/p-9-4.png",
-        "original": "/assets/images/products/p-9-4.png"
+        "thumbnail": "/assets/images/products/p-107.jpg",
+        "original": "/assets/images/products/p-107.jpg"
       }
     ],
     "price": 30.00,
@@ -1008,9 +1008,9 @@
   },
   {
     "id": 10,
-    "name": "NIKE Shoes",
-    "description": "NIKE 2020 Black White is a clean and monochromatic colourway of the label’s latest high-technology silhouette. The model first launched late last year and is currently Jordan Brand’s flagship performance pair.",
-    "slug": "nike-shoes",
+    "name": "Lorem ipsum dolor sit amet",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "slug": "lorem-ipsum-dolor-sit-amet",
     "image": {
       "id": 1,
       "thumbnail": "/assets/images/products/p-10.png",

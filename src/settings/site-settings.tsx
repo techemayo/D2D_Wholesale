@@ -9,13 +9,13 @@ export const siteSettings = {
 	description:
 		"Fastest E-commerce template built with React, NextJS, TypeScript, React-Query and Tailwind CSS.",
 	author: {
-		name: "RedQ, Inc.",
-		websiteUrl: "https://redq.io",
+		name: "DAY2DAY WHOLESALE",
+		websiteUrl: "https://day2day.com/",
 		address: "",
 	},
 	logo: {
 		url: "/assets/images/logo.svg",
-		alt: "ChawkBazar",
+		alt: "DAY2DAY",
 		href: "/",
 		// width: 95,
 		width: 150,
@@ -29,105 +29,65 @@ export const siteSettings = {
 			{
 				id: 1,
 				path: "/",
-				label: "menu-demos",
-				subMenu: [
-					{
-						id: 1,
-						path: "/",
-						label: "menu-modern",
-					},
-					{
-						id: 2,
-						path: "/standard",
-						label: "menu-standard",
-					},
-					{
-						id: 3,
-						path: "/minimal",
-						label: "menu-minimal",
-					},
-					{
-						id: 4,
-						path: "/vintage",
-						label: "menu-vintage",
-					},
-					{
-						id: 5,
-						path: "/classic",
-						label: "menu-classic",
-					},
-					{
-						id: 6,
-						path: "/trendy",
-						label: "menu-trendy",
-					},
-					{
-						id: 7,
-						path: "/elegant",
-						label: "menu-elegant",
-					},
-					{
-						id: 8,
-						path: "/refined",
-						label: "menu-refined",
-					},
-				],
+				label: "home",
+				
 			},
 			{
 				id: 2,
-				path: "/search?q=men-wear",
-				label: "menu-men-wear",
+				path: "/",
+				label: "menu-smoke-shop",
 				columns: [
 					{
 						id: 1,
 						columnItems: [
 							{
 								id: 1,
-								path: "/search?q=top-wear",
-								label: "menu-top-wear",
+								path: "/",
+								label: "Pipes",
 								columnItemItems: [
 									{
 										id: 1,
-										path: "/search?q=t-shit-shirtrt",
-										label: "menu-t-shirt",
+										path: "/",
+										label: "Cigalikes",
 									},
 									{
 										id: 2,
-										path: "/search?q=casual-shirts",
-										label: "menu-casual-shirts",
+										path: "/",
+										label: "Vape Pens",
 									},
 									{
 										id: 3,
-										path: "/search?q=formal-shirts",
-										label: "menu-formal-shirts",
+										path: "/",
+										label: "Vape Mod (Box Mods)",
 									},
 									{
 										id: 4,
-										path: "/search?q=blazwers-coats",
-										label: "menu-blazwers-coats",
+										path: "/",
+										label: "Glass Pipes",
 									},
 									{
 										id: 5,
-										path: "/search?q=suits",
-										label: "menu-suits",
+										path: "/",
+										label: "Wood Pipes",
 									},
 									{
 										id: 6,
-										path: "/search?q=jackets",
-										label: "menu-jackets",
+										path: "/",
+										label: "Metal Pipes",
+									},
+									{
+										id: 7,
+										path: "/",
+										label: "Rubber Pipes",
+									},
+									{
+										id: 8,
+										path: "/",
+										label: "Silicon Pipes",
 									},
 								],
 							},
-							{
-								id: 2,
-								path: "/search?q=belt-scarves",
-								label: "menu-belt-scarves",
-							},
-							{
-								id: 3,
-								path: "/search?q=watches-wearables",
-								label: "menu-watches-wearables",
-							},
+							
 						],
 					},
 					{
@@ -135,50 +95,50 @@ export const siteSettings = {
 						columnItems: [
 							{
 								id: 1,
-								path: "/search?q=western-wear",
-								label: "menu-western-wear",
+								path: "/",
+								label: "Bottels",
 								columnItemItems: [
 									{
 										id: 1,
-										path: "/search?q=dresses",
-										label: "menu-dresses",
+										path: "/",
+										label: "Glass Bottle",
 									},
 									{
 										id: 2,
-										path: "/search?q=jumpsuits",
-										label: "menu-jumpsuits",
+										path: "/",
+										label: "Plastic Bottle",
 									},
 									{
 										id: 3,
-										path: "/search?q=tops-t-shirt",
-										label: "menu-tops-shirts",
+										path: "/",
+										label: "Wood Bottle",
 									},
 									{
 										id: 4,
-										path: "/search?q=shorts-skirts",
-										label: "menu-shorts-skirts",
+										path: "/",
+										label: "Round Bottle",
 									},
 									{
 										id: 5,
-										path: "/search?q=shurgs",
-										label: "menu-shurgs",
+										path: "/",
+										label: "Oval Bottle",
 									},
 									{
 										id: 6,
-										path: "/search?q=blazers",
-										label: "menu-blazers",
+										path: "/",
+										label: "Clear Bottle",
 									},
 								],
 							},
 							{
 								id: 2,
-								path: "/search?q=plus-size",
-								label: "menu-plus-size",
+								path: "/",
+								label: "Opaque Bottle",
 							},
 							{
 								id: 3,
-								path: "/search?q=sunglasses-frames",
-								label: "menu-sunglasses-frames",
+								path: "/",
+								label: "Dazzy Bottle",
 							},
 						],
 					},
@@ -187,50 +147,41 @@ export const siteSettings = {
 						columnItems: [
 							{
 								id: 1,
-								path: "/search?q=footwear",
-								label: "menu-footwear",
+								path: "/",
+								label: "Pods Devices",
 								columnItemItems: [
 									{
 										id: 1,
-										path: "/search?q=flats",
-										label: "menu-flats",
+										path: "/",
+										label: "Uwell Caliburn GK2 Pod Device Kit",
 									},
 									{
 										id: 2,
-										path: "/search?q=casual-shoes",
-										label: "menu-casual-shoes",
+										path: "/",
+										label: "SMOK Nord 4 Starter Kit",
 									},
-									{
-										id: 3,
-										path: "/search?q=heels",
-										label: "menu-heels",
-									},
-									{
-										id: 4,
-										path: "/search?q=boots",
-										label: "menu-boots",
-									},
+									
 								],
 							},
 							{
 								id: 2,
-								path: "/search?q=sports-active-wear",
-								label: "menu-sports-active-wear",
+								path: "/",
+								label: "Tanks",
 								columnItemItems: [
 									{
 										id: 1,
-										path: "/search?q=clothing",
-										label: "menu-clothing",
+										path: "/",
+										label: "Sub Ohm Tanks",
 									},
 									{
 										id: 2,
-										path: "/search?q=footwear",
-										label: "menu-footwear",
+										path: "/",
+										label: "RDA",
 									},
 									{
 										id: 3,
-										path: "/search?q=sports-accessories",
-										label: "menu-sports-accessories",
+										path: "/",
+										label: "MTL",
 									},
 								],
 							},
@@ -241,51 +192,47 @@ export const siteSettings = {
 						columnItems: [
 							{
 								id: 1,
-								path: "/search?q=lingerie-sleepwear",
-								label: "menu-lingerie-sleepwear",
+								path: "/",
+								label: "FreeMax MAXPOD Starter Kit",
 								columnItemItems: [
 									{
 										id: 1,
 										path: "/search?q=bra",
-										label: "menu-bra",
+										label: "Uwell KOKO POD Starter Kit",
 									},
 									{
 										id: 2,
-										path: "/search?q=briefs",
+										path: "/",
 										label: "menu-briefs",
 									},
 									{
 										id: 3,
-										path: "/search?q=sleepwear",
-										label: "menu-sleepwear",
+										path: "/",
+										label: "Uwell Caliburn POD Starter Kit",
 									},
 								],
 							},
 							{
 								id: 2,
-								path: "/search?q=belt-scarves",
-								label: "menu-belt-scarves",
+								path: "/",
+								label: "Brands",
 								columnItemItems: [
 									{
 										id: 1,
-										path: "/search?q=makeup",
-										label: "menu-makeup",
+										path: "/",
+										label: "SMOK",
 									},
 									{
 										id: 2,
-										path: "/search?q=skincare",
-										label: "menu-skincare",
+										path: "/",
+										label: "VAPORESSO",
 									},
 									{
 										id: 3,
-										path: "/search?q=premium-beauty",
-										label: "menu-premium-beauty",
+										path: "/",
+										label: "UWELL",
 									},
-									{
-										id: 4,
-										path: "/search?q=lipsticks",
-										label: "menu-lipsticks",
-									},
+									
 								],
 							},
 						],
@@ -295,55 +242,40 @@ export const siteSettings = {
 						columnItems: [
 							{
 								id: 1,
-								path: "/search?q=gadgets",
-								label: "menu-gadgets",
+								path: "/",
+								label: "All Disposables",
 								columnItemItems: [
 									{
 										id: 1,
-										path: "/search?q=smart-wearables",
-										label: "menu-smart-wearables",
+										path: "/",
+										label: "IVG Max Bar",
 									},
 									{
 										id: 2,
-										path: "/search?q=headphones",
-										label: "menu-headphones",
-									},
-								],
-							},
-							{
-								id: 2,
-								path: "/search?q=jewellers",
-								label: "menu-jewellers",
-								columnItemItems: [
-									{
-										id: 1,
-										path: "/search?q=fashion-jewellers",
-										label: "menu-fashion-jewellers",
+										path: "/",
+										label: "VGOD Disposable Pod",
 									},
 									{
 										id: 2,
-										path: "/search?q=fine-jewellers",
-										label: "menu-fine-jewellers",
+										path: "/",
+										label: "Vozol Micko Meshstick",
+									},
+									{
+										id: 2,
+										path: "/",
+										label: "Veiik Micko Max",
 									},
 								],
 							},
-							{
-								id: 3,
-								path: "/search?q=backpacks",
-								label: "menu-backpacks",
-							},
-							{
-								id: 4,
-								path: "/search?q=handbags-wallets",
-								label: "menu-handbags-wallets",
-							},
+							
+							
 						],
 					},
 				],
 			},
 			{
 				id: 3,
-				path: "/search?q=women-wear",
+				path: "/",
 				label: "menu-women-wear",
 				columns: [
 					{
@@ -351,47 +283,47 @@ export const siteSettings = {
 						columnItems: [
 							{
 								id: 1,
-								path: "/search?q=gadgets",
-								label: "menu-gadgets",
+								path: "/",
+								label: "Flavours",
 								columnItemItems: [
 									{
 										id: 1,
-										path: "/search?q=smart-wearables",
-										label: "menu-smart-wearables",
+										path: "/",
+										label: "Strawbrry",
 									},
 									{
 										id: 2,
-										path: "/search?q=headphones",
-										label: "menu-headphones",
+										path: "/",
+										label: "Reds Apple",
 									},
 								],
 							},
 							{
 								id: 2,
-								path: "/search?q=jewellers",
-								label: "menu-jewellers",
+								path: "/",
+								label: "Fruit Mix",
 								columnItemItems: [
 									{
 										id: 1,
-										path: "/search?q=fashion-jewellers",
-										label: "menu-fashion-jewellers",
+										path: "/",
+										label: "Mango Lime",
 									},
 									{
 										id: 2,
-										path: "/search?q=fine-jewellers",
-										label: "menu-fine-jewellers",
+										path: "/",
+										label: "Lime Lichie",
 									},
 								],
 							},
 							{
 								id: 3,
-								path: "/search?q=backpacks",
-								label: "menu-backpacks",
+								path: "/",
+								label: "Dunhil",
 							},
 							{
 								id: 4,
-								path: "/search?q=handbags-wallets",
-								label: "menu-handbags-wallets",
+								path: "/",
+								label: "Mint",
 							},
 						],
 					},
@@ -400,50 +332,50 @@ export const siteSettings = {
 						columnItems: [
 							{
 								id: 1,
-								path: "/search?q=top-wear",
-								label: "menu-top-wear",
+								path: "/",
+								label: "Mix Fruit",
 								columnItemItems: [
 									{
 										id: 1,
-										path: "/search?q=t-shit-shirtrt",
-										label: "menu-t-shirt",
+										path: "/",
+										label: "Kiwi Berry",
 									},
 									{
 										id: 2,
-										path: "/search?q=casual-shirts",
-										label: "menu-casual-shirts",
+										path: "/",
+										label: "Lemon Tangerine",
 									},
 									{
 										id: 3,
-										path: "/search?q=formal-shirts",
-										label: "menu-formal-shirts",
+										path: "/",
+										label: "Grape Apple",
 									},
 									{
 										id: 4,
-										path: "/search?q=blazwers-coats",
-										label: "menu-blazwers-coats",
+										path: "/",
+										label: "Citrus Strawberry",
 									},
 									{
 										id: 5,
-										path: "/search?q=suits",
-										label: "menu-suits",
+										path: "/",
+										label: "Berry Peach",
 									},
 									{
 										id: 6,
-										path: "/search?q=jackets",
-										label: "menu-jackets",
+										path: "/",
+										label: "ICED Berry",
 									},
 								],
 							},
 							{
 								id: 2,
-								path: "/search?q=belt-scarves",
-								label: "menu-belt-scarves",
+								path: "/",
+								label: "Bana ICE",
 							},
 							{
 								id: 3,
-								path: "/search?q=watches-wearables",
-								label: "menu-watches-wearables",
+								path: "/",
+								label: "Kiwi ICE",
 							},
 						],
 					},
@@ -452,53 +384,52 @@ export const siteSettings = {
 						columnItems: [
 							{
 								id: 1,
-								path: "/search?q=footwear",
-								label: "menu-footwear",
+								path: "/",
+								label: "Mint Flavours",
 								columnItemItems: [
 									{
 										id: 1,
-										path: "/search?q=flats",
-										label: "menu-flats",
+										path: "/",
+										label: "Apple Mint",
 									},
 									{
 										id: 2,
-										path: "/search?q=casual-shoes",
-										label: "menu-casual-shoes",
+										path: "",
+										label: "Berry Mint",
 									},
 									{
 										id: 3,
-										path: "/search?q=heels",
-										label: "menu-heels",
+										path: "/",
+										label: "Cherry Mint",
 									},
 									{
 										id: 4,
-										path: "/search?q=boots",
-										label: "menu-boots",
+										path: "/",
+										label: "Banana Mint",
+									},
+									{
+										id: 5,
+										path: "/",
+										label: "Orange Mint",
+									},
+									{
+										id: 6,
+										path: "/",
+										label: "Lichie Mint",
+									},
+									{
+										id: 7,
+										path: "/",
+										label: "Pineapple Mint",
+									},
+									{
+										id: 8,
+										path: "/",
+										label: "Watermelon Mint",
 									},
 								],
 							},
-							{
-								id: 2,
-								path: "/search?q=sports-active-wear",
-								label: "menu-sports-active-wear",
-								columnItemItems: [
-									{
-										id: 1,
-										path: "/search?q=clothing",
-										label: "menu-clothing",
-									},
-									{
-										id: 2,
-										path: "/search?q=footwear",
-										label: "menu-footwear",
-									},
-									{
-										id: 3,
-										path: "/search?q=sports-accessories",
-										label: "menu-sports-accessories",
-									},
-								],
-							},
+							
 						],
 					},
 					{
@@ -506,50 +437,50 @@ export const siteSettings = {
 						columnItems: [
 							{
 								id: 1,
-								path: "/search?q=western-wear",
-								label: "menu-western-wear",
+								path: "/",
+								label: "Unicorn Flavours",
 								columnItemItems: [
 									{
 										id: 1,
-										path: "/search?q=dresses",
-										label: "menu-dresses",
+										path: "/",
+										label: "FRZN Apple",
 									},
 									{
 										id: 2,
-										path: "/search?q=jumpsuits",
-										label: "menu-jumpsuits",
+										path: "/",
+										label: "FRZN Mango",
 									},
 									{
 										id: 3,
-										path: "/search?q=tops-t-shirt",
-										label: "menu-tops-shirts",
+										path: "/",
+										label: "Pistachio",
 									},
 									{
 										id: 4,
-										path: "/search?q=shorts-skirts",
-										label: "menu-shorts-skirts",
+										path: "/",
+										label: "Unicake",
 									},
 									{
 										id: 5,
-										path: "/search?q=shurgs",
-										label: "menu-shurgs",
+										path: "/",
+										label: "Caramel",
 									},
 									{
 										id: 6,
-										path: "/search?q=blazers",
-										label: "menu-blazers",
+										path: "/",
+										label: "Cuban Cigar",
 									},
 								],
 							},
 							{
 								id: 2,
-								path: "/search?q=plus-size",
-								label: "menu-plus-size",
+								path: "/",
+								label: "Caramel Tobacco",
 							},
 							{
 								id: 3,
-								path: "/search?q=sunglasses-frames",
-								label: "menu-sunglasses-frames",
+								path: "/",
+								label: "Pina Tobacco",
 							},
 						],
 					},
@@ -558,50 +489,50 @@ export const siteSettings = {
 						columnItems: [
 							{
 								id: 1,
-								path: "/search?q=lingerie-sleepwear",
-								label: "menu-lingerie-sleepwear",
+								path: "/",
+								label: "E-Liquids",
 								columnItemItems: [
 									{
 										id: 1,
-										path: "/search?q=bra",
-										label: "menu-bra",
+										path: "/",
+										label: "Turkish Tobacco",
 									},
 									{
 										id: 2,
-										path: "/search?q=briefs",
-										label: "menu-briefs",
+										path: "/",
+										label: "Blood Orange",
 									},
 									{
 										id: 3,
-										path: "/search?q=sleepwear",
-										label: "menu-sleepwear",
+										path: "/",
+										label: "Guava Lava",
 									},
 								],
 							},
 							{
 								id: 2,
-								path: "/search?q=belt-scarves",
-								label: "menu-belt-scarves",
+								path: "/",
+								label: "IVG Flavours",
 								columnItemItems: [
 									{
 										id: 1,
-										path: "/search?q=makeup",
-										label: "menu-makeup",
+										path: "/",
+										label: "Blueberg Burst",
 									},
 									{
 										id: 2,
-										path: "/search?q=skincare",
-										label: "menu-skincare",
+										path: "/",
+										label: "Frsh Mango",
 									},
 									{
 										id: 3,
-										path: "/search?q=premium-beauty",
-										label: "menu-premium-beauty",
+										path: "/",
+										label: "Kiwi Lemon Kool",
 									},
 									{
 										id: 4,
-										path: "/search?q=lipsticks",
-										label: "menu-lipsticks",
+										path: "/",
+										label: "Hawaiian Pog",
 									},
 								],
 							},
@@ -611,479 +542,548 @@ export const siteSettings = {
 			},
 			{
 				id: 4,
-				path: "/search",
-				label: "menu-search",
-			},
-			{
-				id: 5,
-				path: "/shops",
-				label: "menu-shops",
-			},
-			{
-				id: 6,
 				path: "/",
-				label: "menu-pages",
+				label: "mods kits",
 				subMenu: [
 					{
 						id: 1,
 						path: "/",
-						label: "menu-users",
-						subMenu: [
-							{
-								id: 1,
-								path: "/my-account",
-								label: "menu-my-account",
-							},
-							{
-								id: 2,
-								path: "/signin",
-								label: "menu-sign-in",
-							},
-							{
-								id: 3,
-								path: "/signup",
-								label: "menu-sign-up",
-							},
-							{
-								id: 4,
-								path: "/forget-password",
-								label: "menu-forget-password",
-							},
-						],
+						label: "ALL MOD KITS AND BOX MODS",
 					},
 					{
 						id: 2,
-						path: "/faq",
-						label: "menu-faq",
+						path: "/",
+						label: "Mod Kits",
 					},
 					{
 						id: 3,
-						path: "/privacy",
-						label: "menu-privacy-policy",
+						path: "/",
+						label: "Box Mods",
 					},
 					{
 						id: 4,
-						path: "/terms",
-						label: "menu-terms-condition",
+						path: "/",
+						label: "Squonk Mod Kits",
+					},
+					
+				],
+			},
+			{
+				id: 5,
+				path: "/",
+				label: "menu-shops",
+				subMenu: [
+					{
+						id: 1,
+						path: "/",
+						label: "Batteries",
+					},
+					{
+						id: 2,
+						path: "/",
+						label: "Charger",
+					},
+					{
+						id: 3,
+						path: "/",
+						label: "Cotton",
+					},
+					{
+						id: 4,
+						path: "/",
+						label: "Wires",
 					},
 					{
 						id: 5,
-						path: "/contact-us",
-						label: "menu-contact-us",
+						path: "/",
+						label: "Pre-Built Wires",
 					},
-					{
-						id: 6,
-						path: "/checkout",
-						label: "menu-checkout",
-					},
-					{
-						id: 7,
-						path: "/collections/mens-collection",
-						label: "menu-collection",
-					},
-					{
-						id: 8,
-						path: "/category/man",
-						label: "menu-category",
-					},
-					{
-						id: 9,
-						path: "/order",
-						label: "menu-order",
-					},
-					{
-						id: 10,
-						path: "/404",
-						label: "menu-404",
-					},
+					
 				],
 			},
+			{
+				id: 6,
+				path: "/products",
+				label: "Products",
+				// subMenu: [
+					// {
+					// 	id: 1,
+					// 	path: "/",
+					// 	label: "menu-users",
+					// 	subMenu: [
+					// 		{
+					// 			id: 1,
+					// 			path: "/my-account",
+					// 			label: "menu-my-account",
+					// 		},
+					// 		{
+					// 			id: 2,
+					// 			path: "/signin",
+					// 			label: "menu-sign-in",
+					// 		},
+					// 		{
+					// 			id: 3,
+					// 			path: "/signup",
+					// 			label: "menu-sign-up",
+					// 		},
+					// 		{
+					// 			id: 4,
+					// 			path: "/forget-password",
+					// 			label: "menu-forget-password",
+					// 		},
+					// 	],
+					},
+			// 		{
+			// 			id: 2,
+			// 			path: "/faq",
+			// 			label: "menu-faq",
+			// 		},
+			// 		{
+			// 			id: 3,
+			// 			path: "/privacy",
+			// 			label: "menu-privacy-policy",
+			// 		},
+			// 		{
+			// 			id: 4,
+			// 			path: "/terms",
+			// 			label: "menu-terms-condition",
+			// 		},
+			// 		{
+			// 			id: 5,
+			// 			path: "/contact-us",
+			// 			label: "menu-contact-us",
+			// 		},
+			// 		{
+			// 			id: 6,
+			// 			path: "/checkout",
+			// 			label: "menu-checkout",
+			// 		},
+			// 		{
+			// 			id: 7,
+			// 			path: "/collections/mens-collection",
+			// 			label: "menu-collection",
+			// 		},
+			// 		{
+			// 			id: 8,
+			// 			path: "/category/man",
+			// 			label: "menu-category",
+			// 		},
+			// 		{
+			// 			id: 9,
+			// 			path: "/order",
+			// 			label: "menu-order",
+			// 		},
+			// 		{
+			// 			id: 10,
+			// 			path: "/404",
+			// 			label: "menu-404",
+			// 		},
+			// 	],
+			// },
 		],
 		mobileMenu: [
 			{
 				id: 1,
 				path: "/",
-				label: "menu-demos",
-				subMenu: [
-					{
-						id: 1,
-						path: "/",
-						label: "menu-modern",
-					},
-					{
-						id: 2,
-						path: "/standard",
-						label: "menu-standard",
-					},
-					{
-						id: 3,
-						path: "/minimal",
-						label: "menu-minimal",
-					},
-					{
-						id: 4,
-						path: "/vintage",
-						label: "menu-vintage",
-					},
-					{
-						id: 5,
-						path: "/classic",
-						label: "menu-classic",
-					},
-					{
-						id: 6,
-						path: "/trendy",
-						label: "menu-trendy",
-					},
-					{
-						id: 7,
-						path: "/elegant",
-						label: "menu-elegant",
-					},
-					{
-						id: 8,
-						path: "/refined",
-						label: "menu-refined",
-					},
-				],
+				label: "home",
+				// subMenu: [
+				// 	{
+				// 		id: 1,
+				// 		path: "/",
+				// 		label: "menu-modern",
+				// 	},
+				// 	{
+				// 		id: 2,
+				// 		path: "/standard",
+				// 		label: "menu-standard",
+				// 	},
+				// 	{
+				// 		id: 3,
+				// 		path: "/minimal",
+				// 		label: "menu-minimal",
+				// 	},
+				// 	{
+				// 		id: 4,
+				// 		path: "/vintage",
+				// 		label: "menu-vintage",
+				// 	},
+				// 	{
+				// 		id: 5,
+				// 		path: "/classic",
+				// 		label: "menu-classic",
+				// 	},
+				// 	{
+				// 		id: 6,
+				// 		path: "/trendy",
+				// 		label: "menu-trendy",
+				// 	},
+				// 	{
+				// 		id: 7,
+				// 		path: "/elegant",
+				// 		label: "menu-elegant",
+				// 	},
+				// 	{
+				// 		id: 8,
+				// 		path: "/refined",
+				// 		label: "menu-refined",
+				// 	},
+				// ],
 			},
 			{
 				id: 2,
-				path: "/search?q=men-wear",
-				label: "menu-men-wear",
+				path: "/",
+				label: "menu-smoke-shop",
 				subMenu: [
-					{
-						id: 1,
-						path: "/search?q=top-wear",
-						label: "menu-top-wear",
-						subMenu: [
+						
 							{
 								id: 1,
-								path: "/search?q=t-shit-shirtrt",
-								label: "menu-t-shirt",
+								path: "/",
+								label: "Cigalikes",
 							},
 							{
 								id: 2,
-								path: "/search?q=casual-shirts",
-								label: "menu-casual-shirts",
+								path: "/",
+								label: "Vape Pens",
 							},
 							{
 								id: 3,
-								path: "/search?q=formal-shirts",
-								label: "menu-formal-shirts",
+								path: "/",
+								label: "Vape Mod (Box Mods)",
 							},
 							{
 								id: 4,
-								path: "/search?q=blazwers-coats",
-								label: "menu-blazwers-coats",
+								path: "/",
+								label: "Glass Pipes",
 							},
 							{
 								id: 5,
-								path: "/search?q=suits",
-								label: "menu-suits",
+								path: "/",
+								label: "Wood Pipes",
 							},
 							{
 								id: 6,
-								path: "/search?q=jackets",
-								label: "menu-jackets",
-							},
-						],
-					},
-					{
-						id: 2,
-						path: "/search?q=belt-scarves",
-						label: "menu-belt-scarves",
-					},
-					{
-						id: 3,
-						path: "/search?q=watches-wearables",
-						label: "menu-watches-wearables",
-					},
-					{
-						id: 4,
-						path: "/search?q=western-wear",
-						label: "menu-western-wear",
-						subMenu: [
-							{
-								id: 1,
-								path: "/search?q=dresses",
-								label: "menu-dresses",
+								path: "/",
+								label: "Metal Pipes",
 							},
 							{
-								id: 2,
-								path: "/search?q=jumpsuits",
-								label: "menu-jumpsuits",
+								id: 7,
+								path: "/",
+								label: "Rubber Pipes",
 							},
 							{
-								id: 3,
-								path: "/search?q=tops-t-shirt",
-								label: "menu-tops-shirts",
+								id: 8,
+								path: "/",
+								label: "Silicon Pipes",
 							},
-							{
-								id: 4,
-								path: "/search?q=shorts-skirts",
-								label: "menu-shorts-skirts",
-							},
-							{
-								id: 5,
-								path: "/search?q=shurgs",
-								label: "menu-shurgs",
-							},
-							{
-								id: 6,
-								path: "/search?q=blazers",
-								label: "menu-blazers",
-							},
-						],
-					},
-					{
-						id: 5,
-						path: "/search?q=plus-size",
-						label: "menu-plus-size",
-					},
-					{
-						id: 6,
-						path: "/search?q=sunglasses-frames",
-						label: "menu-sunglasses-frames",
-					},
-					{
-						id: 7,
-						path: "/search?q=footwear",
-						label: "menu-footwear",
-						subMenu: [
-							{
-								id: 1,
-								path: "/search?q=flats",
-								label: "menu-flats",
-							},
-							{
-								id: 2,
-								path: "/search?q=casual-shoes",
-								label: "menu-casual-shoes",
-							},
-							{
-								id: 3,
-								path: "/search?q=heels",
-								label: "menu-heels",
-							},
-							{
-								id: 4,
-								path: "/search?q=boots",
-								label: "menu-boots",
-							},
-						],
-					},
-					{
-						id: 8,
-						path: "/search?q=sports-active-wear",
-						label: "menu-sports-active-wear",
-						subMenu: [
-							{
-								id: 1,
-								path: "/search?q=clothing",
-								label: "menu-clothing",
-							},
-							{
-								id: 2,
-								path: "/search?q=footwear",
-								label: "menu-footwear",
-							},
-							{
-								id: 3,
-								path: "/search?q=sports-accessories",
-								label: "menu-sports-accessories",
-							},
-						],
-					},
-					{
-						id: 9,
-						path: "/search?q=lingerie-sleepwear",
-						label: "menu-lingerie-sleepwear",
-						subMenu: [
-							{
-								id: 1,
-								path: "/search?q=bra",
-								label: "menu-bra",
-							},
-							{
-								id: 2,
-								path: "/search?q=briefs",
-								label: "menu-briefs",
-							},
-							{
-								id: 3,
-								path: "/search?q=sleepwear",
-								label: "menu-sleepwear",
-							},
-						],
-					},
-					{
-						id: 10,
-						path: "/search?q=belt-scarves",
-						label: "menu-belt-scarves",
-						subMenu: [
-							{
-								id: 1,
-								path: "/search?q=makeup",
-								label: "menu-makeup",
-							},
-							{
-								id: 2,
-								path: "/search?q=skincare",
-								label: "menu-skincare",
-							},
-							{
-								id: 3,
-								path: "/search?q=premium-beauty",
-								label: "menu-premium-beauty",
-							},
-							{
-								id: 4,
-								path: "/search?q=lipsticks",
-								label: "menu-lipsticks",
-							},
-						],
-					},
-					{
-						id: 11,
-						path: "/search?q=gadgets",
-						label: "menu-gadgets",
-						subMenu: [
-							{
-								id: 1,
-								path: "/search?q=smart-wearables",
-								label: "menu-smart-wearables",
-							},
-							{
-								id: 2,
-								path: "/search?q=headphones",
-								label: "menu-headphones",
-							},
-						],
-					},
-					{
-						id: 12,
-						path: "/search?q=jewellers",
-						label: "menu-jewellers",
-						subMenu: [
-							{
-								id: 1,
-								path: "/search?q=fashion-jewellers",
-								label: "menu-fashion-jewellers",
-							},
-							{
-								id: 2,
-								path: "/search?q=fine-jewellers",
-								label: "menu-fine-jewellers",
-							},
-						],
-					},
-					{
-						id: 13,
-						path: "/search?q=backpacks",
-						label: "menu-backpacks",
-					},
-					{
-						id: 14,
-						path: "/search?q=handbags-wallets",
-						label: "menu-handbags-wallets",
-					},
+						
+					// ---------------------------------------------------
+					// {
+					// 	id: 2,
+					// 	path: "/search?q=belt-scarves",
+					// 	label: "menu-belt-scarves",
+					// },
+					// {
+					// 	id: 3,
+					// 	path: "/search?q=watches-wearables",
+					// 	label: "menu-watches-wearables",
+					// },
+					// {
+					// 	id: 4,
+					// 	path: "/search?q=western-wear",
+					// 	label: "menu-western-wear",
+					// 	subMenu: [
+					// 		{
+					// 			id: 1,
+					// 			path: "/search?q=dresses",
+					// 			label: "menu-dresses",
+					// 		},
+					// 		{
+					// 			id: 2,
+					// 			path: "/search?q=jumpsuits",
+					// 			label: "menu-jumpsuits",
+					// 		},
+					// 		{
+					// 			id: 3,
+					// 			path: "/search?q=tops-t-shirt",
+					// 			label: "menu-tops-shirts",
+					// 		},
+					// 		{
+					// 			id: 4,
+					// 			path: "/search?q=shorts-skirts",
+					// 			label: "menu-shorts-skirts",
+					// 		},
+					// 		{
+					// 			id: 5,
+					// 			path: "/search?q=shurgs",
+					// 			label: "menu-shurgs",
+					// 		},
+					// 		{
+					// 			id: 6,
+					// 			path: "/search?q=blazers",
+					// 			label: "menu-blazers",
+					// 		},
+					// 	],
+					// },
+					// {
+					// 	id: 5,
+					// 	path: "/search?q=plus-size",
+					// 	label: "menu-plus-size",
+					// },
+					// {
+					// 	id: 6,
+					// 	path: "/search?q=sunglasses-frames",
+					// 	label: "menu-sunglasses-frames",
+					// },
+					// {
+					// 	id: 7,
+					// 	path: "/search?q=footwear",
+					// 	label: "menu-footwear",
+					// 	subMenu: [
+					// 		{
+					// 			id: 1,
+					// 			path: "/search?q=flats",
+					// 			label: "menu-flats",
+					// 		},
+					// 		{
+					// 			id: 2,
+					// 			path: "/search?q=casual-shoes",
+					// 			label: "menu-casual-shoes",
+					// 		},
+					// 		{
+					// 			id: 3,
+					// 			path: "/search?q=heels",
+					// 			label: "menu-heels",
+					// 		},
+					// 		{
+					// 			id: 4,
+					// 			path: "/search?q=boots",
+					// 			label: "menu-boots",
+					// 		},
+					// 	],
+					// },
+					// {
+					// 	id: 8,
+					// 	path: "/search?q=sports-active-wear",
+					// 	label: "menu-sports-active-wear",
+					// 	subMenu: [
+					// 		{
+					// 			id: 1,
+					// 			path: "/search?q=clothing",
+					// 			label: "menu-clothing",
+					// 		},
+					// 		{
+					// 			id: 2,
+					// 			path: "/search?q=footwear",
+					// 			label: "menu-footwear",
+					// 		},
+					// 		{
+					// 			id: 3,
+					// 			path: "/search?q=sports-accessories",
+					// 			label: "menu-sports-accessories",
+					// 		},
+					// 	],
+					// },
+					// {
+					// 	id: 9,
+					// 	path: "/search?q=lingerie-sleepwear",
+					// 	label: "menu-lingerie-sleepwear",
+					// 	subMenu: [
+					// 		{
+					// 			id: 1,
+					// 			path: "/search?q=bra",
+					// 			label: "menu-bra",
+					// 		},
+					// 		{
+					// 			id: 2,
+					// 			path: "/search?q=briefs",
+					// 			label: "menu-briefs",
+					// 		},
+					// 		{
+					// 			id: 3,
+					// 			path: "/search?q=sleepwear",
+					// 			label: "menu-sleepwear",
+					// 		},
+					// 	],
+					// },
+					// {
+					// 	id: 10,
+					// 	path: "/search?q=belt-scarves",
+					// 	label: "menu-belt-scarves",
+					// 	subMenu: [
+					// 		{
+					// 			id: 1,
+					// 			path: "/search?q=makeup",
+					// 			label: "menu-makeup",
+					// 		},
+					// 		{
+					// 			id: 2,
+					// 			path: "/search?q=skincare",
+					// 			label: "menu-skincare",
+					// 		},
+					// 		{
+					// 			id: 3,
+					// 			path: "/search?q=premium-beauty",
+					// 			label: "menu-premium-beauty",
+					// 		},
+					// 		{
+					// 			id: 4,
+					// 			path: "/search?q=lipsticks",
+					// 			label: "menu-lipsticks",
+					// 		},
+					// 	],
+					// },
+					// {
+					// 	id: 11,
+					// 	path: "/search?q=gadgets",
+					// 	label: "menu-gadgets",
+					// 	subMenu: [
+					// 		{
+					// 			id: 1,
+					// 			path: "/search?q=smart-wearables",
+					// 			label: "menu-smart-wearables",
+					// 		},
+					// 		{
+					// 			id: 2,
+					// 			path: "/search?q=headphones",
+					// 			label: "menu-headphones",
+					// 		},
+					// 	],
+					// },
+					// {
+					// 	id: 12,
+					// 	path: "/search?q=jewellers",
+					// 	label: "menu-jewellers",
+					// 	subMenu: [
+					// 		{
+					// 			id: 1,
+					// 			path: "/search?q=fashion-jewellers",
+					// 			label: "menu-fashion-jewellers",
+					// 		},
+					// 		{
+					// 			id: 2,
+					// 			path: "/search?q=fine-jewellers",
+					// 			label: "menu-fine-jewellers",
+					// 		},
+					// 	],
+					// },
+					// {
+					// 	id: 13,
+					// 	path: "/search?q=backpacks",
+					// 	label: "menu-backpacks",
+					// },
+					// {
+					// 	id: 14,
+					// 	path: "/search?q=handbags-wallets",
+					// 	label: "menu-handbags-wallets",
+					// },
 				],
 			},
 			{
 				id: 3,
-				path: "/search?q=women-wear",
-				label: "menu-women-wear",
-			},
-			{
-				id: 4,
-				path: "/search",
-				label: "menu-search",
-			},
-			{
-				id: 5,
-				path: "/shops",
-				label: "menu-shops",
-			},
-			{
-				id: 6,
 				path: "/",
-				label: "menu-pages",
+				label: "menu-women-wear",
 				subMenu: [
 					{
 						id: 1,
 						path: "/",
-						label: "menu-users",
-						subMenu: [
-							{
-								id: 1,
-								path: "/my-account",
-								label: "menu-my-account",
-							},
-							{
-								id: 2,
-								path: "/signin",
-								label: "menu-sign-in",
-							},
-							{
-								id: 3,
-								path: "/signup",
-								label: "menu-sign-up",
-							},
-							{
-								id: 4,
-								path: "/forget-password",
-								label: "menu-forget-password",
-							},
-						],
+						label: "Fruits",
 					},
 					{
 						id: 2,
-						path: "/faq",
-						label: "menu-faq",
-					},
-					{
-						id: 3,
-						path: "/privacy",
-						label: "menu-privacy-policy",
-					},
-					{
-						id: 4,
-						path: "/terms",
-						label: "menu-terms-condition",
-					},
-					{
-						id: 5,
-						path: "/contact-us",
-						label: "menu-contact-us",
-					},
-					{
-						id: 6,
-						path: "/checkout",
-						label: "menu-checkout",
-					},
-					{
-						id: 7,
-						path: "/collections/mens-collection",
-						label: "menu-collection",
-					},
-					{
-						id: 8,
-						path: "/category/man",
-						label: "menu-category",
-					},
-					{
-						id: 9,
-						path: "/order",
-						label: "menu-order",
-					},
-					{
-						id: 10,
-						path: "/404",
-						label: "menu-404",
+						path: "/",
+						label: "Nicotine",
 					},
 				],
 			},
+			{
+				id: 4,
+				path: "/products",
+				label: "Products",
+			},
+			{
+				id: 5,
+				path: "/",
+				label: "menu-shops",
+			},
+			// {
+			// 	id: 6,
+			// 	path: "/",
+			// 	label: "menu-pages",
+			// 	subMenu: [
+			// 		{
+			// 			id: 1,
+			// 			path: "/",
+			// 			label: "menu-users",
+			// 			subMenu: [
+			// 				{
+			// 					id: 1,
+			// 					path: "/my-account",
+			// 					label: "menu-my-account",
+			// 				},
+			// 				{
+			// 					id: 2,
+			// 					path: "/signin",
+			// 					label: "menu-sign-in",
+			// 				},
+			// 				{
+			// 					id: 3,
+			// 					path: "/signup",
+			// 					label: "menu-sign-up",
+			// 				},
+			// 				{
+			// 					id: 4,
+			// 					path: "/forget-password",
+			// 					label: "menu-forget-password",
+			// 				},
+			// 			],
+			// 		},
+			// 		{
+			// 			id: 2,
+			// 			path: "/faq",
+			// 			label: "menu-faq",
+			// 		},
+			// 		{
+			// 			id: 3,
+			// 			path: "/privacy",
+			// 			label: "menu-privacy-policy",
+			// 		},
+			// 		{
+			// 			id: 4,
+			// 			path: "/terms",
+			// 			label: "menu-terms-condition",
+			// 		},
+			// 		{
+			// 			id: 5,
+			// 			path: "/contact-us",
+			// 			label: "menu-contact-us",
+			// 		},
+			// 		{
+			// 			id: 6,
+			// 			path: "/checkout",
+			// 			label: "menu-checkout",
+			// 		},
+			// 		{
+			// 			id: 7,
+			// 			path: "/collections/mens-collection",
+			// 			label: "menu-collection",
+			// 		},
+			// 		{
+			// 			id: 8,
+			// 			path: "/category/man",
+			// 			label: "menu-category",
+			// 		},
+			// 		{
+			// 			id: 9,
+			// 			path: "/order",
+			// 			label: "menu-order",
+			// 		},
+			// 		{
+			// 			id: 10,
+			// 			path: "/404",
+			// 			label: "menu-404",
+			// 		},
+			// 	],
+			// },
 		],
 		languageMenu: [
 			{

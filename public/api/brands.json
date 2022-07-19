@@ -2,8 +2,8 @@
 	"brands": [
 		{
 			"id": 1,
-			"name": "Shovia",
-			"slug": "shovia",
+			"slug": "smok",
+			"name": "SMOK",
 			"image": {
 				"id": 1,
 				"thumbnail": "/assets/images/brands/brand-1.png",
@@ -12,8 +12,8 @@
 		},
 		{
 			"id": 2,
-			"name": "Fusion",
-			"slug": "fusion",
+			"name": "Vaporesso",
+			"slug": "vaporesso",
 			"image": {
 				"id": 1,
 				"thumbnail": "/assets/images/brands/brand-2.png",
@@ -22,8 +22,8 @@
 		},
 		{
 			"id": 3,
-			"name": "Hunter Shoes",
-			"slug": "hunter-shoes",
+			"name": "GeekVape",
+			"slug": "geekvape",
 			"image": {
 				"id": 1,
 				"thumbnail": "/assets/images/brands/brand-3.png",
@@ -32,8 +32,8 @@
 		},
 		{
 			"id": 4,
-			"name": "Club Shoes",
-			"slug": "club-shoes",
+			"name": "Freemax",
+			"slug": "freemax",
 			"image": {
 				"id": 1,
 				"thumbnail": "/assets/images/brands/brand-4.png",
@@ -42,8 +42,8 @@
 		},
 		{
 			"id": 5,
-			"name": "Hoppister",
-			"slug": "hoppister",
+			"name": "Lost Vape",
+			"slug": "lost vape",
 			"image": {
 				"id": 1,
 				"thumbnail": "/assets/images/brands/brand-5.png",
@@ -52,8 +52,8 @@
 		},
 		{
 			"id": 6,
-			"name": "Blaze Fashion",
-			"slug": "blaze-fashion",
+			"name": "UWELL",
+			"slug": "uwell",
 			"image": {
 				"id": 1,
 				"thumbnail": "/assets/images/brands/brand-6.png",
@@ -62,8 +62,8 @@
 		},
 		{
 			"id": 7,
-			"name": "Elegance",
-			"slug": "elegance",
+			"name": "Daze E-Liquid",
+			"slug": "daze liquid",
 			"image": {
 				"id": 1,
 				"thumbnail": "/assets/images/brands/brand-7.png",
@@ -72,8 +72,8 @@
 		},
 		{
 			"id": 8,
-			"name": "Fashadil",
-			"slug": "fashadil",
+			"name": "Dead Man’s Hand Elixir",
+			"slug": "dead man’s hand elixir",
 			"image": {
 				"id": 1,
 				"thumbnail": "/assets/images/brands/brand-8.png",
@@ -84,8 +84,8 @@
 	"brandsGrid": [
 		{
 			"id": 1,
-			"name": "Fusion",
-			"slug": "fusion",
+			"name": "Dinner Lady",
+			"slug": "dinner lady",
 			"image": {
 				"id": 1,
 				"thumbnail": "/assets/images/brands/grid/fusion.png",
@@ -99,8 +99,8 @@
 		},
 		{
 			"id": 2,
-			"name": "Sholy",
-			"slug": "sholy",
+			"name": "Don Cristo",
+			"slug": "don cristo",
 			"image": {
 				"id": 1,
 				"thumbnail": "/assets/images/brands/grid/sholy.png",
@@ -114,8 +114,8 @@
 		},
 		{
 			"id": 3,
-			"name": "Tyrant",
-			"slug": "tyrant",
+			"name": "Five Pawns",
+			"slug": "five pawns",
 			"image": {
 				"id": 1,
 				"thumbnail": "/assets/images/brands/grid/tyrant.png",
@@ -129,8 +129,8 @@
 		},
 		{
 			"id": 4,
-			"name": "Fashadil",
-			"slug": "fashadil",
+			"name": "Full Gallery",
+			"slug": "full gallery",
 			"image": {
 				"id": 1,
 				"thumbnail": "/assets/images/brands/grid/fashadil.png",
@@ -144,8 +144,8 @@
 		},
 		{
 			"id": 5,
-			"name": "Clothingegy",
-			"slug": "clothingegy",
+			"name": "Aspire",
+			"slug": "aspire",
 			"image": {
 				"id": 1,
 				"thumbnail": "/assets/images/brands/grid/clothingegy.png",
@@ -159,8 +159,8 @@
 		},
 		{
 			"id": 6,
-			"name": "Shosio",
-			"slug": "shosio",
+			"name": "Voopoo",
+			"slug": "voopoo",
 			"image": {
 				"id": 1,
 				"thumbnail": "/assets/images/brands/grid/shosio.png",
@@ -174,8 +174,8 @@
 		},
 		{
 			"id": 7,
-			"name": "Club Shoes",
-			"slug": "club-shoes",
+			"name": "HorizonTech",
+			"slug": "horizontech",
 			"image": {
 				"id": 1,
 				"thumbnail": "/assets/images/brands/grid/club-shoes.png",
@@ -189,8 +189,8 @@
 		},
 		{
 			"id": 8,
-			"name": "Pop Clothing",
-			"slug": "pop-clothing",
+			"name": "HEXA",
+			"slug": "HEXA",
 			"image": {
 				"id": 1,
 				"thumbnail": "/assets/images/brands/grid/pop-clothing.png",
@@ -204,8 +204,8 @@
 		},
 		{
 			"id": 9,
-			"name": "Hoppister",
-			"slug": "hoppister",
+			"name": "Air Bar",
+			"slug": "air bar",
 			"image": {
 				"id": 1,
 				"thumbnail": "/assets/images/brands/grid/hoppister.png",
@@ -219,8 +219,8 @@
 		},
 		{
 			"id": 10,
-			"name": "Shovia",
-			"slug": "shovia",
+			"name": "ALUR",
+			"slug": "alur",
 			"image": {
 				"id": 1,
 				"thumbnail": "/assets/images/brands/grid/shovia.png",
@@ -234,8 +234,8 @@
 		},
 		{
 			"id": 11,
-			"name": "Shoozly",
-			"slug": "shoozly",
+			"name": "Bang",
+			"slug": "bang",
 			"image": {
 				"id": 1,
 				"thumbnail": "/assets/images/brands/grid/shoozly.png",
@@ -249,8 +249,8 @@
 		},
 		{
 			"id": 12,
-			"name": "Blaze Fashion",
-			"slug": "blaze-fashion",
+			"name": "Big Bar",
+			"slug": "big bar",
 			"image": {
 				"id": 1,
 				"thumbnail": "/assets/images/brands/grid/brand-1.png",
@@ -264,8 +264,8 @@
 		},
 		{
 			"id": 13,
-			"name": "Elegance",
-			"slug": "elegance",
+			"name": "Atman",
+			"slug": "atman",
 			"image": {
 				"id": 1,
 				"thumbnail": "/assets/images/brands/grid/elegance.png",
@@ -279,8 +279,8 @@
 		},
 		{
 			"id": 14,
-			"name": "Clothingtastic",
-			"slug": "clothingtastic",
+			"name": "BlackCell",
+			"slug": "blackcell",
 			"image": {
 				"id": 1,
 				"thumbnail": "/assets/images/brands/grid/clothingtastic.png",
@@ -294,8 +294,8 @@
 		},
 		{
 			"id": 15,
-			"name": "Fashnetic",
-			"slug": "fashnetic",
+			"name": "BLVK Unicorn",
+			"slug": "blvk unoicorn",
 			"image": {
 				"id": 1,
 				"thumbnail": "/assets/images/brands/grid/fashnetic.png",
@@ -309,8 +309,8 @@
 		},
 		{
 			"id": 16,
-			"name": "Hunter Shoes",
-			"slug": "hunter-shoes",
+			"name": "Artery",
+			"slug": "artery",
 			"image": {
 				"id": 1,
 				"thumbnail": "/assets/images/brands/grid/hunter-shoes.png",

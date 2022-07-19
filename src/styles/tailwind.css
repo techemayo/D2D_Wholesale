@@ -251,7 +251,10 @@
   #zipCode,
   #displayName,
   #oldPassword,
-  #newPassword {
+  #newPassword,
+  #name,
+  #subject,
+  #message {
     color: white;
     background-color: #292929;
     border: none;

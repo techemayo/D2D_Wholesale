@@ -14,25 +14,25 @@ export const footer = {
 				{
 					id: 1,
 					title: "link-instagram",
-					path: "https://www.instagram.com/redqinc/",
+					path: "https://www.instagram.com/",
 					icon: <IoLogoInstagram />,
 				},
 				{
 					id: 2,
 					title: "link-twitter",
-					path: "https://twitter.com/redqinc",
+					path: "https://twitter.com/",
 					icon: <IoLogoTwitter />,
 				},
 				{
 					id: 3,
 					title: "link-facebook",
-					path: "https://www.facebook.com/redqinc/",
+					path: "https://www.facebook.com/",
 					icon: <IoLogoFacebook />,
 				},
 				{
 					id: 4,
 					title: "link-youtube",
-					path: "https://www.youtube.com/channel/UCjld1tyVHRNy_pe3ROLiLhw",
+					path: "https://www.youtube.com/",
 					icon: <IoLogoYoutube />,
 				},
 			],
@@ -136,32 +136,32 @@ export const footer = {
 				},
 			],
 		},
-		{
-			id: 6,
-			widgetTitle: "widget-title-top-categories",
-			lists: [
-				{
-					id: 1,
-					title: "link-men-wear",
-					path: "/search",
-				},
-				{
-					id: 2,
-					title: "link-men-wear",
-					path: "/search",
-				},
-				{
-					id: 3,
-					title: "link-kids-wear",
-					path: "/search",
-				},
-				{
-					id: 4,
-					title: "link-sports-wear",
-					path: "/search",
-				},
-			],
-		},
+		// {
+		// 	id: 6,
+		// 	widgetTitle: "widget-title-top-categories",
+		// 	lists: [
+		// 		{
+		// 			id: 1,
+		// 			title: "link-men-wear",
+		// 			path: "/search",
+		// 		},
+		// 		{
+		// 			id: 2,
+		// 			title: "link-men-wear",
+		// 			path: "/search",
+		// 		},
+		// 		{
+		// 			id: 3,
+		// 			title: "link-kids-wear",
+		// 			path: "/search",
+		// 		},
+		// 		{
+		// 			id: 4,
+		// 			title: "link-sports-wear",
+		// 			path: "/search",
+		// 		},
+		// 	],
+		// },
 	],
 	payment: [
 		{

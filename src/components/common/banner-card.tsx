@@ -41,7 +41,8 @@ const BannerCard: FC<BannerProps> = ({
 	return (
 		<div className={cn("mx-auto", className)}>
 			<Link
-				href={href}
+				// href={href}
+				href={"#"}
 				className={cn(
 					"h-full group flex justify-center relative overflow-hidden",
 					classNameInner
