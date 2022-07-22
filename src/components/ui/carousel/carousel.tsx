@@ -56,7 +56,7 @@ const Carousel: React.FunctionComponent<CarouselPropsType> = ({
 		: "";
 
 	let nextButtonClassName = cn(
-		"w-7 h-7 lg:w-8 lg:h-8 text-sm md:text-base lg:text-lg text-black flex items-center justify-center rounded-full bg-white absolute transition duration-250 hover:bg-gray-900 hover:text-white focus:outline-none transform shadow-navigation translate-x-1/2",
+		"w-7 h-7 lg:w-8 lg:h-8 text-sm md:text-base bg-gradient-to-r from-orange-500  to-pink-500 lg:text-lg text-black flex items-center justify-center rounded-full bg-white absolute transition duration-250 hover:bg-gray-900 hover:text-white focus:outline-none transform shadow-navigation translate-x-1/2",
 		{
 			"lg:w-9 lg:h-9 xl:w-10 xl:h-10 3xl:w-12 3xl:h-12 text-sm md:text-base lg:text-xl 3xl:text-2xl":
 				buttonSize === "default",
@@ -66,7 +66,7 @@ const Carousel: React.FunctionComponent<CarouselPropsType> = ({
 	);
 
 	let prevButtonClassName = cn(
-		"w-7 h-7 lg:w-8 lg:h-8 text-sm md:text-base lg:text-lg text-black flex items-center justify-center rounded-full bg-white absolute transition duration-250 hover:bg-gray-900 hover:text-white focus:outline-none transform shadow-navigation -translate-x-1/2",
+		"w-7 h-7 lg:w-8 lg:h-8 text-sm md:text-base bg-gradient-to-r from-orange-500  to-pink-500 lg:text-lg text-black flex items-center justify-center rounded-full bg-white absolute transition duration-250 hover:bg-gray-900 hover:text-white focus:outline-none transform shadow-navigation -translate-x-1/2",
 		{
 			"lg:w-9 lg:h-9 xl:w-10 xl:h-10 3xl:w-12 3xl:h-12 text-sm md:text-base lg:text-xl 3xl:text-2xl":
 				buttonSize === "default",

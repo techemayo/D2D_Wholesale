@@ -61,7 +61,7 @@ const Layout: React.FC = ({ children }) => {
 				title={t("text-cookies-title")}
 				hide={acceptedCookies}
 				action={
-					<Button onClick={() => onAcceptCookies()} variant="slim">
+					<Button onClick={() => onAcceptCookies()} variant="slim" className="bg-gradient-to-r from-orange-500  to-pink-500">
 						{t("text-accept-cookies")}
 					</Button>
 				}
