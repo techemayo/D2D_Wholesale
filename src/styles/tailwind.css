@@ -317,3 +317,14 @@
 .chawkbazarBreadcrumb li:last-child {
   @apply truncate;
 }
+
+@media (max-width: 769px) {
+  .tablet {
+    display: none;
+  }
+}
+@media (min-width: 769px) {
+  .desktop {
+    display: none;
+  }
+}

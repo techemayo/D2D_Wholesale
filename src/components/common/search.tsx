@@ -73,7 +73,7 @@ export default function Search() {
 							/>
 						</div>
 						{searchText && (
-							<div className="bg-white flex flex-col rounded-md overflow-hidden h-full max-h-64vh lg:max-h-[550px]">
+							<div className="bg-gray-750 flex flex-col rounded-md overflow-hidden h-full max-h-64vh lg:max-h-[550px]">
 								<Scrollbar className="os-host-flexbox">
 									<div className="h-full">
 										{isLoading ? (
@@ -88,7 +88,7 @@ export default function Search() {
 										) : (
 											data?.map((item:any, index: number) => (
 												<div
-													className=" p-5 border-b border-gray-150 relative last:border-b-0"
+													className=" p-5 border-b border-gray-500 relative last:border-b-0"
 													onClick={closeSearch}
 												>
 													<SearchProduct item={item} key={index} />

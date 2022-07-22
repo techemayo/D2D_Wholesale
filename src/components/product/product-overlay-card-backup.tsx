@@ -18,26 +18,33 @@ const ProductOverlayCardBackup: React.FC<ProductProps> = ({
 }) => {
 	let size = 300;
 	let classes;
+	
+	
 
-	if (variant === "left" && index === 0) {
-		classes = "row-span-full lg:row-span-2 col-span-full lg:col-span-2";
-		size = 620;
-	} else if (variant === "center" && index === 1) {
-		classes = "row-span-full lg:row-span-2 col-span-full lg:col-span-2";
-		size = 620;
-	} else if (variant === "combined") {
-		if (index === 0) {
-			classes = "col-span-2 lg:row-span-2 col-span-full lg:col-span-2";
-			size = 620;
-		} else if (index === 2) {
-			classes = `col-span-2 lg:col-start-4 lg:col-end-5 lg:row-start-1 lg:row-end-3`;
-			size = 620;
-		} else {
-			classes = "col-span-2 lg:col-span-1";
-		}
-	} else {
-		classes = "col-span-2 lg:col-span-1";
-	}
+	//   if (variant === "left" && index === 0) {
+	//   	classes = "row-span-full lg:row-span-2 col-span-full lg:col-span-2";
+	//   	size = 620;
+	//   } else if (variant === "center" && index === 1) {
+	//  	// classes = "row-span-full lg:row-span-2 col-span-full lg:col-span-2";
+	//  	// size = 620;
+	//   }
+	//   else 
+	  	if (variant === "combined") {
+	 	if (index === 0) {
+	 		classes = "col-span-2 lg:row-span-2 col-span-2 lg:col-span-2";
+	 		size = 707;
+			// size = 620;
+	 	} 
+	 	// else if (index === 2) {
+	 	// 	classes = `col-span-2 lg:col-start-4 lg:col-end-5 lg:row-start-1 lg:row-end-3`;
+	 	// 	size = 620;
+	 	// } 
+	 	// else {
+	 	// 	classes = "col-span-2 lg:col-span-1";
+	 	// }
+	 } else {
+	 	classes = "col-span-2 lg:col-span-1";
+	 }
 
 	const { openModal, setModalView, setModalData } = useUI();
 	const { price, basePrice, discount } = usePrice({
@@ -84,7 +91,7 @@ const ProductOverlayCardBackup: React.FC<ProductProps> = ({
 						{product?.description}
 					</p>
 				</div>
-				<div className="flex-shrink-0 text-white flex md:flex-col  2xl:flex-col items-center md:items-end lg:items-start 2xl:items-end justify-end md:text-end lg:text-start xl:text-end mt-2 md:-mt-0.5 lg:mt-2 2xl:-mt-0.5">
+				<div className="flex-shrink-0 text-white lg:flex md:flex-col  2xl:flex-col items-center md:items-end lg:items-start 2xl:items-end justify-end md:text-end lg:text-start xl:text-end mt-2 md:-mt-0.5 lg:mt-2 2xl:-mt-0.5">
 					{discount && (
 						<del className="text-sm md:text-base lg:text-sm xl:text-base 3xl:text-lg">
 							{basePrice}

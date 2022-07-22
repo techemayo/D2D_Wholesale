@@ -667,7 +667,7 @@ export const bannerDataThree = [
 		slug: "men's-collection",
 		image: {
 			mobile: {
-				url: "/assets/images/banner/masonry/banner-mobile-7.jpg",
+				url: "/assets/images/banner/masonry/banner-7.png",
 				width: 470,
 				height: 232,
 			},
@@ -685,7 +685,7 @@ export const bannerDataThree = [
 		slug: "new-kid's",
 		image: {
 			mobile: {
-				url: "/assets/images/banner/masonry/banner-mobile-8.jpg",
+				url: "/assets/images/banner/masonry/banner-8.png",
 				width: 232,
 				height: 232,
 			},
@@ -703,7 +703,7 @@ export const bannerDataThree = [
 		slug: "dress-women",
 		image: {
 			mobile: {
-				url: "/assets/images/banner/masonry/banner-mobile-9.jpg",
+				url: "/assets/images/banner/masonry/banner-9.png",
 				width: 232,
 				height: 232,
 			},

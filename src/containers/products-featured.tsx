@@ -39,7 +39,7 @@ const ProductsFeatured: React.FC<ProductsProps> = ({
 				<div className="first-letter:grid-cols-2">
 
 					{/* <div className="grid grid-rows-full  gap-3 md:gap-5 xl:gap-7 float-left lg:mr-8" style={{maxHeight:'480px'}}> */}
-					<div className="grid grid-rows-full gap-3 md:max md:gap-5 xl:gap-7 float-left lg:mr-8">
+					<div className="grid grid-rows-full gap-3 md:max md:gap-5 xl:gap-7 float-left lg:mr-8 tablet">
 						{data?.slice(0, singlelimit).map((product: Product, idx: number) => (
 							<ProductOverlayCardBackup
 								key={`product--key${product.id}`}
@@ -49,8 +49,19 @@ const ProductsFeatured: React.FC<ProductsProps> = ({
 							/>
 						))}
 					</div>
-					<div className="grid grid-rows-2 gap-3 md:gap-5 xl:gap-7">
+					<div className="grid grid-rows-2 gap-3 md:gap-5 xl:gap-7 tablet">
 						{data?.slice(1, limit).map((product: Product, idx: number) => (
+							<ProductOverlayCard
+								key={`product--key${product.id}`}
+								product={product}
+								variant={variant}
+								index={idx}
+								
+							/>
+						))}
+					</div>
+					<div className="grid grid-rows-2 gap-3 md:gap-5 xl:gap-7 desktop">
+						{data?.slice(0, limit).map((product: Product, idx: number) => (
 							<ProductOverlayCard
 								key={`product--key${product.id}`}
 								product={product}

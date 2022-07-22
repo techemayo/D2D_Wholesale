@@ -1,3 +1,5 @@
+const { NONAME } = require("dns")
+
 module.exports = {
 	mode: "jit",
 	purge: ["./src/**/*.{js,jsx,ts,tsx}"],
@@ -54,10 +56,13 @@ module.exports = {
 				"10px": ".625rem",
 			},
 			screens: {
+				xs: "320px",
 				sm: "480px",
+				md: "768px",
 				lg: "1025px",
 				"2xl": "1500px",
 				"3xl": "1780px",
+				
 			},
 			spacing: {
 				"430px": "430px",

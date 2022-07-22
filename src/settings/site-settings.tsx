@@ -197,7 +197,7 @@ export const siteSettings = {
 								columnItemItems: [
 									{
 										id: 1,
-										path: "/search?q=bra",
+										path: "/",
 										label: "Uwell KOKO POD Starter Kit",
 									},
 									{

@@ -19,48 +19,49 @@ const ProductOverlayCard: React.FC<ProductProps> = ({
 	let size = 260;
 	let classes;
 
-	// if (variant === "left" && index === 0) {
-	// 	classes = "row-span-full lg:row-span-2 col-span-full lg:col-span-2";
-	// 	size = 620;
-	// } else if (variant === "center" && index === 1) {
-	// 	classes = "row-span-full lg:row-span-2 col-span-full lg:col-span-2";
-	// 	size = 620;
-	// } else if (variant === "combined") {
-	// 	if (index === 0) {
-	// 		classes = "col-span-2 lg:row-span-2 col-span-full lg:col-span-2";
-	// 		size = 620;
-	// 	} else if (index === 2) {
-	// 		classes = `col-span-2 lg:col-start-4 lg:col-end-5 lg:row-start-1 lg:row-end-3`;
-	// 		size = 620;
-	// 	} else {
-	// 		classes = "col-span-2 lg:col-span-1";
-	// 	}
-	// } else {
-	// 	classes = "col-span-2 lg:col-span-1";
-	// }
-
-
-
-
 	if (variant === "left" && index === 0) {
-		classes = "row-span-2 lg:row-span-1 col-span-full lg:col-span-1";
+		classes = "row-span-full lg:row-span-2 col-span-full lg:col-span-2";
 		size = 620;
 	} else if (variant === "center" && index === 1) {
-		classes = "row-span-1 lg:row-span-1 col-span-1 lg:col-span-1";
+		classes = "row-span-full lg:row-span-2 col-span-full lg:col-span-2";
 		size = 620;
 	} else if (variant === "combined") {
 		if (index === 0) {
-			classes = "col-span-2 lg:row-span-1 col-span-full lg:col-span-1";
+			classes = "col-span-2 lg:row-span-2 col-span-full lg:col-span-2";
 			size = 620;
 		} else if (index === 2) {
-			classes = `col-span-1 lg:col-start-2 lg:col-end-3 lg:row-start-1 lg:row-end-3`;
+			classes = `col-span-2 lg:col-start-4 lg:col-end-5 lg:row-start-1 lg:row-end-3`;
+			size = 620;
+		} else {
+			classes = "col-span-2 lg:col-span-1";
+		}
+	} else {
+		classes = "col-span-2 lg:col-span-1";
+	}
+
+
+
+
+	 if (variant === "left" && index === 0) {
+	 	classes = "row-span-2 lg:row-span-1 col-span-full lg:col-span-1";
+	 	size = 620;
+	 } else if (variant === "center" && index === 1) {
+	 	classes = "row-span-1 lg:row-span-1 col-span-1 lg:col-span-1";
+	 	size = 620;
+	 } else if (variant === "combined") {
+	 	if (index === 0) {
+	 		 classes = "col-span-2 lg:row-span-1 col-span-full lg:col-span-1";
+	 		 size = 620;
+	 		//  size = 120;
+	 	} else if (index === 2) {
+	 		classes = `col-span-1 lg:col-start-2 lg:col-end-3 lg:row-start-1 lg:row-end-3`;
 			size = 620;
 		} else {
 			classes = "col-span-1 lg:col-span-1";
 		}
 	} else {
 		classes = "col-span-1 lg:col-span-1";
-	}
+	 }
 
 	const { openModal, setModalView, setModalData } = useUI();
 	const { price, basePrice, discount } = usePrice({
