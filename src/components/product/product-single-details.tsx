@@ -12,40 +12,43 @@ import isEmpty from "lodash/isEmpty";
 import Link from "@components/ui/link";
 import { toast } from "react-toastify";
 import { useWindowSize } from "@utils/use-window-size";
-import Carousel from "@components/ui/carousel/carousel";
-import { SwiperSlide } from "swiper/react";
+// import Carousel from "@components/ui/carousel/carousel";
+// import { SwiperSlide } from "swiper/react";
 import ProductMetaReview from "@components/product/product-meta-review";
+import { API_ENDPOINTS } from "@framework/utils/api-endpoints";
 
-const productGalleryCarouselResponsive = {
-	"768": {
-		slidesPerView: 2,
-	},
-	"0": {
-		slidesPerView: 1,
-	},
-};
+
+// const productGalleryCarouselResponsive = {
+// 	"768": {
+// 		slidesPerView: 2,
+// 	},
+// 	"0": {
+// 		slidesPerView: 1,
+// 	},
+// };
 
 const ProductSingleDetails: React.FC = () => {
 	const {
 		limit = 1,
-		query: { slug },
+		query: { product_slug },
 	} = useRouter();
 	const { width } = useWindowSize();
-	const { data, isLoading } = useProductQuery(slug as string);
+	const { data, isLoading } = useProductQuery(product_slug as string);
 	const { addItemToCart } = useCart();
 	const [attributes, setAttributes] = useState<{ [key: string]: string }>({});
 	const [quantity, setQuantity] = useState(1);
 	const [addToCartLoader, setAddToCartLoader] = useState<boolean>(false);
-	const { price, basePrice, discount } = usePrice(
+	const { selling_price, purchase_price, discount_price } = usePrice(
 		data && {
-			amount: data.sale_price ? data.sale_price : data.price,
-			baseAmount: data.price,
+			// amount: data.sale_price ? data.sale_price : data.price,
+		amount:  data.selling_price,
+			baseAmount: data.purchase_price,
 			currencyCode: "USD",
 			
 		}
 	);
 	if (isLoading) return <p>Loading...</p>;
-	const variations = getVariations(data?.variations);
+	const variations = getVariations(data?.variants);
 
 	const isSelected = !isEmpty(variations)
 		? !isEmpty(attributes) &&
@@ -85,6 +88,14 @@ const ProductSingleDetails: React.FC = () => {
 		}));
 	}
 
+	const placeholderImage = `/assets/placeholder/products/product-gallery.svg`;
+
+	const myLoader = ({ src }) => {
+		return `${API_ENDPOINTS.NEXT_PUBLIC_REST_ENDPOINT}/assets/img/products/thumb/${src}`
+	  }
+
+	console.log("data", data)
+
 	return (
 		<div className="block lg:grid grid-cols-9 gap-x-10 xl:gap-x-14 pt-7 pb-10 lg:pb-14 2xl:pb-20 items-start">
 			{
@@ -116,17 +127,19 @@ const ProductSingleDetails: React.FC = () => {
 			(
 				<div className="col-span-5 grid grid-cols-2 gap-2.5">
 					
-					{data?.gallery?.slice(0,limit).map((item, index: number) => (
+					{data?.product?.map(( index: number) => (
 						<div
 							key={index}
 							className="col-span-2 transition duration-150 ease-in hover:opacity-90"
 						>
 							<img
-								src={
-									item?.original ??
-									"/assets/placeholder/products/product-gallery.svg"
-								}
-								alt={`${data?.name}--${index}`}
+								loader={myLoader}
+								src={product?.product_thumbnail ?? placeholderImage}
+								// src={
+								// 	item?.original ??
+								// 	"/assets/placeholder/products/product-gallery.svg"
+								// }
+								alt={`${data?.product_name}--${index}`}
 								className="object-cover w-full"
 							/>
 						</div>
@@ -137,18 +150,18 @@ const ProductSingleDetails: React.FC = () => {
 			<div className="col-span-4 pt-8 lg:pt-0">
 				<div className="pb-7 mb-7 border-b border-gray-300">
 					<h2 className="text-heading text-lg md:text-xl lg:text-2xl 2xl:text-3xl font-bold hover:text-gray-600 mb-3.5">
-						{data?.name}
+						{data?.product_name}
 					</h2>
 					<p className="text-gray-500 text-sm lg:text-base leading-6 lg:leading-8">
-						{data?.description}
+						{data?.long_description}
 					</p>
 					<div className="flex items-center mt-5">
 						<div className="text-heading font-bold text-base md:text-xl lg:text-2xl 2xl:text-4xl pe-2 md:pe-0 lg:pe-2 2xl:pe-0">
-							{price}
+							{data?.selling_price}
 						</div>
-						{discount && (
+						{discount_price && (
 							<span className="line-through font-segoe text-gray-400 text-sm md:text-base lg:text-lg xl:text-xl ps-2">
-								{basePrice}
+								{data?.purchase_price}
 							</span>
 						)}
 					</div>
@@ -195,7 +208,7 @@ const ProductSingleDetails: React.FC = () => {
 							<span className="font-semibold text-heading inline-block pe-2">
 								SKU:
 							</span>
-							{data?.sku}
+							{data?.product_sku}
 						</li>
 						<li>
 							<span className="font-semibold text-heading inline-block pe-2">
@@ -216,7 +229,7 @@ const ProductSingleDetails: React.FC = () => {
 								{data.tags.map((tag) => (
 									<Link
 										key={tag.id}
-										href={tag.slug}
+										href={tag.product_slug}
 										className="inline-block pe-1.5 transition hover:underline hover:text-heading last:pe-0"
 									>
 										{tag.name}
@@ -228,7 +241,7 @@ const ProductSingleDetails: React.FC = () => {
 					</ul>
 				</div>
 
-				<ProductMetaReview data={data} />
+				{/* <ProductMetaReview data={data} /> */}
 			</div>
 		</div>
 	);

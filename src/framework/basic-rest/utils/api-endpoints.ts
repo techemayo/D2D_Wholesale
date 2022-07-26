@@ -13,6 +13,7 @@ export const API_ENDPOINTS = {
   ON_SELLING_PRODUCTS: "/products_on_selling.json",
   PRODUCT: "/product.json",
   PRO:"http://127.0.0.1:8000/api/products",
+  SINGLE_PRODUCT: "http://127.0.0.1:8000/api/products/1",
   RELATED_PRODUCTS: "/related_products.json",
   BEST_SELLER_PRODUCTS: "/products_best_seller.json",
   NEW_ARRIVAL_PRODUCTS: "/products_new_arrival.json",

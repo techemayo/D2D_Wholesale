@@ -25,7 +25,7 @@ const productGalleryCarouselResponsive = {
 	},
 };
 
-const ProductSingleDetails: React.FC = () => {
+const ProductSingleDetailsBackup: React.FC = () => {
 	const {
 		query: { slug },
 	} = useRouter();
@@ -227,4 +227,4 @@ const ProductSingleDetails: React.FC = () => {
 	);
 };
 
-export default ProductSingleDetails;
+export default ProductSingleDetailsBackup;
