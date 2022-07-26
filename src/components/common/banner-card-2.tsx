@@ -24,7 +24,7 @@ function getImage(deviceWidth: number, imgObj: any) {
 	return deviceWidth < 480 ? imgObj.mobile : imgObj.desktop;
 }
 
-const BannerCard: FC<BannerProps> = ({
+const BannerCard2: FC<BannerProps> = ({
 	banner,
 	className,
 	variant = "rounded",
@@ -35,9 +35,9 @@ const BannerCard: FC<BannerProps> = ({
 	const { width } = useWindowSize();
 	const { title, image } = banner;
 	const selectedImage = getImage(width, image);
-	const myLoader = ({ src }) => {
-		return `${API_ENDPOINTS.NEXT_PUBLIC_REST_ENDPOINT}/${src}`
-	  }
+	// const myLoader = ({ src }) => {
+	// 	return `${API_ENDPOINTS.NEXT_PUBLIC_REST_ENDPOINT}/${src}`
+	//   }
 	return (
 		<div className={cn("mx-auto", className)}>
 			<Link
@@ -48,7 +48,7 @@ const BannerCard: FC<BannerProps> = ({
 				)}
 			>
 				<Image
-					loader={myLoader}
+					// loader={myLoader}
 					// src={`${ROUTES.BANNER}/${selectedImage.url}`}
 					// src={`${process.env.NEXT_PUBLIC_REST_API_ENDPOINT}${selectedImage.url}`}
 					src={selectedImage.url}
@@ -69,4 +69,4 @@ const BannerCard: FC<BannerProps> = ({
 	);
 };
 
-export default BannerCard;
+export default BannerCard2;

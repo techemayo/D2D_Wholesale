@@ -40,6 +40,7 @@ export type QueryParamsType = {
 };
 export type Attachment = {
   id: string | number;
+  product_thumbnail: string;
   thumbnail: string;
   original: string;
 };
@@ -79,18 +80,25 @@ export type Tag = {
 export type Product = {
   id: number | string;
   name: string;
+    product_name: string;
   slug: string;
+    product_slug: string;
   price: number;
+    purchase_price:number;
   quantity: number;
   sale_price?: number;
+    selling_price?: number;
   image: Attachment;
   sku?: string;
+    product_sku?: string;
   gallery?: Attachment[];
   category?: Category;
   tag?: Tag[];
   meta?: any[];
   description?: string;
+    long_description: string;
   variations?: object;
+    variants?: object;
   [key: string]: unknown;
 };
 export type OrderItem = {

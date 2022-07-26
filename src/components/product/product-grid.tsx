@@ -22,7 +22,6 @@ export const ProductGrid: FC<ProductGridProps> = ({ className = "" }) => {
 	if (error) return <p>{error.message}</p>;
 
 	const { t } = useTranslation("common");
-
 	return (
 		<>
 			<div
@@ -32,7 +31,8 @@ export const ProductGrid: FC<ProductGridProps> = ({ className = "" }) => {
 					<ProductFeedLoader limit={20} uniqueKey="search-product" />
 				) : (
 					data?.pages?.map((page) => {
-						return page?.data?.map((product: Product) => (
+						console.log(page)
+						return page?.data?.map((product) => (
 							<ProductCard
 								key={`product--key${product.id}`}
 								product={product}

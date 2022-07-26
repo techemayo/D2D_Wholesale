@@ -18,6 +18,7 @@ interface CheckoutInputType {
 	zipCode: string;
 	save: boolean;
 	note: string;
+	coupon: string;
 }
 
 const CheckoutForm: React.FC = () => {
@@ -117,6 +118,8 @@ const CheckoutForm: React.FC = () => {
 					<div className="relative flex items-center ">
 						<CheckBox class="check-out-check-box" labelKey="forms:label-save-information" />
 					</div>
+					
+					
 					<TextArea
 						labelKey="forms:label-order-notes"
 						{...register("note")}
@@ -130,6 +133,21 @@ const CheckoutForm: React.FC = () => {
 							disabled={isLoading}
 						>
 							{t("common:button-place-order")}
+						</Button>
+					</div>
+					<div className="flex flex-col lg:flex-row space-y-4 lg:space-y-0">
+						<Input
+							labelKey="forms:label-coupon"
+							// {...register("coupon")}
+							variant="solid"
+							className="w-full lg:w-1/1 "
+						/>
+						<Button
+							className=" verify w-full lg:w-1/2 lg:ms-3 lg:h-1/2 bg-gradient-to-r from-orange-500  to-pink-500"
+							// loading={isLoading}
+							// disabled={isLoading}
+						>
+							{t("common:button-verify-coupon")}
 						</Button>
 					</div>
 				</div>

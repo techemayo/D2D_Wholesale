@@ -25,13 +25,14 @@ export default function ProductPopup() {
 	const [attributes, setAttributes] = useState<{ [key: string]: string }>({});
 	const [viewCartBtn, setViewCartBtn] = useState<boolean>(false);
 	const [addToCartLoader, setAddToCartLoader] = useState<boolean>(false);
-	const { price, basePrice, discount } = usePrice({
-		amount: data.sale_price ? data.sale_price : data.price,
-		baseAmount: data.price,
+	const { selling_price, purchase_price, discount_price } = usePrice({
+		amount: data.sale_price ? data.sale_price : data.selling_price,
+		baseAmount: data.purchase_price,
 		currencyCode: "USD",
 	});
-	const variations = getVariations(data.variations);
-	const { slug, image, name, description } = data;
+	// const attributes = getAttributes(data.attributes);
+	const variations = getVariations(data.variants);
+	const { product_slug, image, product_name, long_description } = data;
 
 	const isSelected = !isEmpty(variations)
 		? !isEmpty(attributes) &&
@@ -55,7 +56,7 @@ export default function ProductPopup() {
 
 	function navigateToProductPage() {
 		closeModal();
-		router.push(`${ROUTES.PRODUCT}/${slug}`, undefined, {
+		router.push(`${ROUTES.PRODUCT}/${product_slug}`, undefined, {
 			locale: router.locale,
 		});
 	}
@@ -74,6 +75,7 @@ export default function ProductPopup() {
 		}, 300);
 	}
 
+	
 	return (
 		<div className="rounded-lg bg-gray-800">
 			<div className="flex flex-col lg:flex-row w-full md:w-[650px] lg:w-[960px] mx-auto overflow-hidden">
@@ -83,7 +85,7 @@ export default function ProductPopup() {
 							image?.original ??
 							"/assets/placeholder/products/product-thumbnail.svg"
 						}
-						alt={name}
+						alt={product_name}
 						className="lg:object-cover lg:w-full lg:h-full object-cover"
 					/>
 				</div>
@@ -96,31 +98,32 @@ export default function ProductPopup() {
 							role="button"
 						>
 							<h2 className="text-heading text-lg md:text-xl lg:text-2xl font-semibold hover:text-gray-500">
-								{name}
+								{product_name}
 							</h2>
 						</div>
 						<p className="text-sm leading-6 md:text-white md:leading-7">
-							{description}
+							{long_description}
 						</p>
 
 						<div className="flex items-center mt-3">
 							<div className="text-heading font-semibold text-base md:text-xl lg:text-2xl">
-								{price}
+								{selling_price}
 							</div>
-							{discount && (
+							{discount_price && (
 								<del className="font-segoe text-gray-400 text-base lg:text-xl ps-2.5 -mt-0.5 md:mt-0">
-									{basePrice}
+									{purchase_price}
 								</del>
 							)}
 						</div>
 					</div>
 
 					{Object.keys(variations).map((variation) => {
-						return (
-							<ProductAttributes
-								key={`popup-attribute-key${variation}`}
-								title={variation}
-								attributes={variations[variation]}
+								return (
+							 <ProductAttributes
+								key={`popup-attribute-key${variation.id}`}
+								title={Object.keys(variations[variation][0].attributes[0])[1]}
+								attributes={variations[variation][0].attributes}
+								// attributes={variation.attributes}
 								active={attributes[variation]}
 								onClick={handleAttribute}
 							/>

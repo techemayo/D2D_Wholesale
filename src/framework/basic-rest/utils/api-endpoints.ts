@@ -12,6 +12,7 @@ export const API_ENDPOINTS = {
   TOP_SELLER_PRODUCTS: "/products_top_seller.json",
   ON_SELLING_PRODUCTS: "/products_on_selling.json",
   PRODUCT: "/product.json",
+  PRO:"http://127.0.0.1:8000/api/products",
   RELATED_PRODUCTS: "/related_products.json",
   BEST_SELLER_PRODUCTS: "/products_best_seller.json",
   NEW_ARRIVAL_PRODUCTS: "/products_new_arrival.json",
@@ -21,5 +22,6 @@ export const API_ENDPOINTS = {
   SEARCH: "/search.json",
   ORDERS: "/orders.json",
   ORDER: "/order.json",
+  BANNER: "http://localhost:8000/api/slider",
   NEXT_PUBLIC_REST_ENDPOINT: "http://localhost:8000",
 };

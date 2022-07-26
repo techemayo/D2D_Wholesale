@@ -1,4 +1,5 @@
-import BannerCard from "@components/common/banner-card";
+import BannerCard2 from "@components/common/banner-card-2";
+import BannerCard from "@components/common/banner-card-2";
 import { ROUTES } from "@utils/routes";
 interface BannerProps {
 	data: any;
@@ -14,7 +15,7 @@ const BannerBlock: React.FC<BannerProps> = ({
 			className={`${className} grid grid-cols-2 sm:grid-cols-9 gap-2 md:gap-2.5 max-w-[1920px] mx-auto`}
 		>
 			{data.map((banner: any) => (
-				<BannerCard
+				<BannerCard2
 					key={`banner--key${banner.id}`}
 					banner={banner}
 					href={`${ROUTES.COLLECTIONS}/${banner.slug}`}

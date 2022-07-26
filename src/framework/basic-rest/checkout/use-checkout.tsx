@@ -17,6 +17,10 @@ async function checkout(input: CheckoutInputType) {
   // return http.post(API_ENDPOINTS.ChangeEmail, input);
   return input;
 }
+async function coupon(input: CheckoutInputType) {
+  // return http.post(API_ENDPOINTS.ChangeEmail, input);
+  return input;
+}
 export const useCheckoutMutation = () => {
   return useMutation((input: CheckoutInputType) => checkout(input), {
     onSuccess: (data) => {
@@ -24,6 +28,16 @@ export const useCheckoutMutation = () => {
     },
     onError: (data) => {
       console.log(data, "Checkout error response");
+    },
+  });
+};
+export const useCouponMutation = () => {
+  return useMutation((input: CheckoutInputType) => checkout(input), {
+    onSuccess: (data) => {
+      console.log(data, "Coupon response");
+    },
+    onError: (data) => {
+      console.log(data, "Coupon error response");
     },
   });
 };

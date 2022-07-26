@@ -30,16 +30,22 @@ export function formatVariantPrice({
 }) {
   const hasDiscount = baseAmount > amount;
   const formatDiscount = new Intl.NumberFormat(locale, { style: "percent" });
-  const discount = hasDiscount
+  const discount_price = hasDiscount
     ? formatDiscount.format((baseAmount - amount) / baseAmount)
     : null;
 
-  const price = formatPrice({ amount, currencyCode, locale });
-  const basePrice = hasDiscount
+    // trying for coupns
+  // const hasCoupon = baseAmount > amount;
+  // const formatCoupon = new Intl.NumberFormat(locale, {style:"percent"});
+  // const coupon = hasCoupon
+  // ? formatCoupon.format((baseAmount -amount) /baseAmount)
+
+  const selling_price = formatPrice({ amount, currencyCode, locale });
+  const purchase_price = hasDiscount
     ? formatPrice({ amount: baseAmount, currencyCode, locale })
     : null;
 
-  return { price, basePrice, discount };
+  return { selling_price, purchase_price, discount_price };
 }
 
 export default function usePrice(
@@ -60,6 +66,6 @@ export default function usePrice(
   }, [amount, baseAmount, currencyCode]);
 
   return typeof value === "string"
-    ? { price: value, basePrice: null, discount: null }
+    ? { selling_price: value, purchase_price: null, discount_price: value }
     : value;
 }

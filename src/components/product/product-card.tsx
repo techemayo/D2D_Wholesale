@@ -1,9 +1,14 @@
 import cn from "classnames";
 import Image from "next/image";
-import type { FC } from "react";
+import { FC } from "react";
 import { useUI } from "@contexts/ui.context";
 import usePrice from "@framework/product/use-price";
 import { Product } from "@framework/types";
+import { API_ENDPOINTS } from "@framework/utils/api-endpoints";
+
+
+
+
 
 interface ProductProps {
 	product: Product;
@@ -27,10 +32,13 @@ const ProductCard: FC<ProductProps> = ({
 	imgLoading,
 }) => {
 	const { openModal, setModalView, setModalData } = useUI();
+	// const placeholderImage = `/assets/placeholder/products/product-${variant}.svg`;
 	const placeholderImage = `/assets/placeholder/products/product-${variant}.svg`;
-	const { price, basePrice, discount } = usePrice({
-		amount: product.sale_price ? product.sale_price : product.price,
-		baseAmount: product.price,
+	const { selling_price, purchase_price, discount_price } = usePrice({
+		// amount: product.sale_price ? product.sale_price : product.selling_price,
+		amount:  product.selling_price,
+
+		baseAmount: product.purchase_price,
 		currencyCode: "USD",
 	});
 	function handlePopupView() {
@@ -38,6 +46,10 @@ const ProductCard: FC<ProductProps> = ({
 		setModalView("PRODUCT_VIEW");
 		return openModal();
 	}
+	// console.log(product)
+	const myLoader = ({ src }) => {
+		return `${API_ENDPOINTS.NEXT_PUBLIC_REST_ENDPOINT}/assets/img/products/thumb/${src}`
+	  }
 	return (
 		<div
 			className={cn(
@@ -55,7 +67,7 @@ const ProductCard: FC<ProductProps> = ({
 			)}
 			onClick={handlePopupView}
 			role="button"
-			title={product?.name}
+			title={product?.product_name}
 		>
 			<div
 				className={cn(
@@ -70,12 +82,15 @@ const ProductCard: FC<ProductProps> = ({
 				)}
 			>
 				<Image
-					src={product?.image?.thumbnail ?? placeholderImage}
+				loader={myLoader}
+					// src={product?.image?.thumbnail ?? placeholderImage}
+					// src={product?.image?.product_thumbnail ?? placeholderImage}
+					src={product?.product_thumbnail ?? placeholderImage}
 					width={imgWidth}
 					height={imgHeight}
 					loading={imgLoading}
 					quality={100}
-					alt={product?.name || "Product Image"}
+					alt={product?.product_name || "Product Image"}
 					className={cn("bg-gray-650 object-cover rounded-s-md", {
 						"w-full rounded-md transition duration-200 ease-in group-hover:rounded-b-none":
 							variant === "grid",
@@ -107,11 +122,11 @@ const ProductCard: FC<ProductProps> = ({
 							variant === "list",
 					})}
 				>
-					{product?.name}
+					{product?.product_name}
 				</h2>
-				{product?.description && (
+				{product?.long_description && (
 					<p className="text-gray-500 text-xs lg:text-sm leading-normal xl:leading-relaxed max-w-[250px] truncate">
-						{product?.description}
+						{product?.long_description}
 					</p>
 				)}
 				<div
@@ -121,10 +136,10 @@ const ProductCard: FC<ProductProps> = ({
 							: "sm:text-xl md:text-base lg:text-xl md:mt-2.5 2xl:mt-3"
 					}`}
 				>
-					<span className="inline-block">{price}</span>
-					{discount && (
+					<span className="inline-block">{selling_price}</span>
+					{discount_price && (
 						<del className="sm:text-base font-normal text-gray-600">
-							{basePrice}
+							{purchase_price}
 						</del>
 					)}
 				</div>
