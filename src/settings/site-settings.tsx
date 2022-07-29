@@ -9,13 +9,13 @@ export const siteSettings = {
 	description:
 		"Fastest E-commerce template built with React, NextJS, TypeScript, React-Query and Tailwind CSS.",
 	author: {
-		name: "RedQ, Inc.",
-		websiteUrl: "https://redq.io",
+		name: "DAY2DAY WHOLESALE",
+		websiteUrl: "https://day2day.com",
 		address: "",
 	},
 	logo: {
 		url: "/assets/images/logo.svg",
-		alt: "ChawkBazar",
+		alt: "DAY2DAY",
 		href: "/",
 		// width: 95,
 		width: 150,
