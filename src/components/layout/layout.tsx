@@ -59,9 +59,10 @@ const Layout: React.FC = ({ children }) => {
 			<Search />
 			<CookieBar
 				title={t("text-cookies-title")}
+				className={"bg-gray-750"}
 				hide={acceptedCookies}
 				action={
-					<Button onClick={() => onAcceptCookies()} variant="slim">
+					<Button onClick={() => onAcceptCookies()} variant="slim" className="bg-gradient-to-r from-orange-500  to-pink-500">
 						{t("text-accept-cookies")}
 					</Button>
 				}

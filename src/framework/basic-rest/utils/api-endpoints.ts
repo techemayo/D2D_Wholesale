@@ -25,4 +25,5 @@ export const API_ENDPOINTS = {
   ORDER: "/order.json",
   BANNER: "http://localhost:8000/api/slider",
   NEXT_PUBLIC_REST_ENDPOINT: "http://localhost:8000",
+  ACCOUNT_DETAILS:"http://127.0.0.1:8000/api/me",
 };
