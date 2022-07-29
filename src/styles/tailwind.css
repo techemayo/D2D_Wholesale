@@ -317,3 +317,6 @@ button.text-\[13px\].md\:text-sm.leading-4.inline-flex.items-center.cursor-point
 .chawkbazarBreadcrumb li:last-child {
   @apply truncate;
 }
+.lable {
+  color: white;
+}

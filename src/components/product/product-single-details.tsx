@@ -28,6 +28,7 @@ import { API_ENDPOINTS } from "@framework/utils/api-endpoints";
 // };
 
 const ProductSingleDetails: React.FC = () => {
+	
 	const {
 		limit = 1,
 		query: { product_slug },
@@ -134,7 +135,7 @@ const ProductSingleDetails: React.FC = () => {
 						>
 							<img
 								loader={myLoader}
-								src={product?.product_thumbnail ?? placeholderImage}
+								src={data?.product_thumbnail ?? placeholderImage}
 								// src={
 								// 	item?.original ??
 								// 	"/assets/placeholder/products/product-gallery.svg"
